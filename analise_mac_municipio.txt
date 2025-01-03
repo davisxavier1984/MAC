@@ -1,29 +1,29 @@
 
-# Análise da Evolução do Teto Financeiro MAC - Wanderley
+# Análise da Evolução do Teto Financeiro MAC - Oliveira dos Brejinhos
 
 ## Análise da Tendência
-Análise da Tendência do Teto Financeiro MAC para Wanderley
+A análise a seguir demonstra a evolução do Teto Financeiro MAC para o município de Oliveira dos Brejinhos, considerando os dados fornecidos.
 
-O teto financeiro MAC para o município de Wanderley apresentou uma tendência de crescimento no período analisado, apesar de algumas oscilações.  Observamos um valor inicial de R\$ 157.500,00 em 2015, que demonstra um aumento significativo até R\$ 341.936,40 em 2025.  Esse crescimento, embora expressivo, não foi linear.
+O período analisado demonstra uma tendência de crescimento significativo do Teto Financeiro MAC.  Observamos um valor inicial de R\$350.635,00 em 2013, que salta para R\$2.104.615,78 em 2025, representando um aumento de aproximadamente :red[599%] em doze anos.  Este crescimento acentuado não é linear, apresentando variações consideráveis ao longo dos anos.  É importante notar a ausência de dados para alguns anos (2018), o que pode afetar a precisão da análise de tendência.
 
-Entre 2015 e 2017, houve um aumento considerável do teto, passando de R\$ 157.500,00 para R\$ 263.028,00.  Este salto pode ser atribuído, possivelmente, ao impacto de portarias que implementaram novas políticas ou incentivos financeiros para a saúde no município.  A ausência de dados para os anos de 2018 demonstra uma lacuna na série temporal que dificulta uma análise mais precisa da influência das portarias nesse período.
 
-Após 2017, o teto permaneceu estável em R\$ 263.028,00 por alguns anos, indicando uma possível consolidação das políticas implementadas anteriormente.  A partir de 2023, no entanto, observa-se uma retomada do crescimento, atingindo R\$ 341.936,40 em 2025.  Essa nova fase de crescimento sugere a influência de novas portarias ou ajustes nas políticas de financiamento da saúde, que possivelmente levaram a um aumento nos recursos destinados ao município.  A variação percentual total entre 2015 e 2025 é de :green[117,2%], demonstrando um crescimento substancial no teto financeiro MAC.
+A análise detalhada revela que, apesar de flutuações, o crescimento se intensifica a partir de 2022.  Antes disso, o teto financeiro oscilava em torno de R\$600.000,00, com exceção de um pico em 2015 e 2014.  A partir de 2022, porém, há um aumento substancial, impulsionando o valor final para mais de R\$2 milhões em 2025.  Essa mudança drástica sugere a influência de fatores externos significativos, possivelmente relacionados às portarias mencionadas, que não foram detalhadas neste documento.
 
-A análise completa da influência das portarias requer uma investigação mais detalhada de seus conteúdos e impactos específicos sobre o financiamento da saúde em Wanderley.  No entanto, a análise da evolução do teto MAC indica uma forte correlação entre a publicação dessas portarias e as mudanças observadas nos valores financeiros.  A ausência de dados para alguns anos limita a precisão da análise, mas a tendência geral de crescimento é inegável.
+
+A falta de informações detalhadas sobre as portarias dificulta uma análise mais precisa da sua influência individual na evolução do Teto MAC. No entanto, a correlação entre o aumento significativo do teto a partir de 2022 e a provável implementação de novas políticas ou ajustes regulatórios é evidente.  A análise de dados de produção ambulatorial e hospitalar, em conjunto com a evolução do Teto MAC, poderá fornecer insights adicionais sobre a relação entre a demanda de serviços e a alocação de recursos financeiros.  A ausência de dados para os anos de 2015 a 2017 e 2018, para a categoria "Sem Incentivos", também dificulta a análise completa da tendência.
 
 ## Influência das Portarias
 As portarias listadas abaixo tiveram impacto significativo na evolução do Teto Financeiro MAC. A análise detalhada da influência de cada portaria foge ao escopo deste documento, mas é possível afirmar que os acréscimos e remanejamentos descritos contribuíram diretamente para o aumento do teto ao longo dos anos.
 
 ### Tabela 1: Portarias com Maior Impacto na Evolução do Teto MAC
 
-| Portaria | Data | Tipo | Incentivo | Valor (R\$) | Competência |
+| Portaria | Data | Tipo | Incentivo | Valor (R$) | Competência |
 |---|---|---|---|---|---|
-| GM 06267/2024 | 27/12/2024 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 841.920,00 | 11ª/2024 |
+| GM 05579/2024 | 29/10/2024 | Acréscimo | Incentivo EMAD I, EMAD II e EMAP | 5.304.000,00 | 12ª/2024 |
 | GM 01631/2023 | 24/10/2023 | Acréscimo | Incentivo SAMU | 2.047.500,00 | 8ª/2023 |
-| GM 01261/2023 | 13/09/2023 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 920.760,00 | 6ª/2023 |
-| GM 01366/2022 | 08/06/2022 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 3.396.600,00 | 7ª/2022 |
+| GM 01631/2023 | 24/10/2023 | Acréscimo | Incentivo SAMU - Qualificação | 1.371.864,00 | 8ª/2023 |
+| REM 02909/2022 | 15/08/2022 | Remanejamento_Intra | DECISÃO CIB | 80.054.338,00 | 9ª/2022 |
 
 
 ## Conclusão
-A análise da evolução do Teto Financeiro MAC para o município de Wanderley demonstra um crescimento significativo no período analisado, com uma variação percentual de :green[117,2%] entre 2015 e 2025.  Apesar de algumas oscilações e lacunas nos dados, a tendência de aumento é clara e possivelmente relacionada à implementação de portarias que impactaram o financiamento da saúde no município.  A análise detalhada das portarias e sua correlação com a produção ambulatorial e hospitalar fornecerá subsídios adicionais para a justificativa do pleito de ajuste do teto MAC para o próximo ano.
+A análise da evolução do Teto Financeiro MAC para Oliveira dos Brejinhos demonstra um crescimento expressivo no período analisado, passando de R\$350.635,00 em 2013 para R\$2.104.615,78 em 2025, um aumento de aproximadamente :red[599%]. Embora a ausência de dados para alguns anos e a falta de detalhes sobre as portarias impactem a precisão da análise, a tendência de crescimento acentuado a partir de 2022 é inegável, sugerindo a influência de fatores externos, possivelmente relacionados a novas políticas e ajustes regulatórios.  Uma análise mais aprofundada, incluindo dados de produção e detalhes das portarias, é necessária para uma compreensão completa da dinâmica financeira do município.
