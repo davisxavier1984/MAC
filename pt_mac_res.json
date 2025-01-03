@@ -1,16 +1,5 @@
 [
     {
-        "Portaria": "GM 06267/2024",
-        "Data": "2024-12-27 00:00:00",
-        "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "11ª/2024",
-        "Valor": 841920,
-        "Ano": 2024,
-        "Competência_Num": 11
-    },
-    {
         "Portaria": "GM 01631/2023",
         "Data": "2023-10-24 00:00:00",
         "Tipo": "Acréscimo",
@@ -22,25 +11,36 @@
         "Competência_Num": 8
     },
     {
-        "Portaria": "GM 01261/2023",
-        "Data": "2023-09-13 00:00:00",
+        "Portaria": "GM 01631/2023",
+        "Data": "2023-10-24 00:00:00",
         "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "6ª/2023",
-        "Valor": 920760,
+        "Incentivo": "Incentivo SAMU - Qualificação",
+        "Área": "SAMU",
+        "Competência": "8ª/2023",
+        "Valor": 1371864,
         "Ano": 2023,
-        "Competência_Num": 6
+        "Competência_Num": 8
     },
     {
-        "Portaria": "GM 01366/2022",
-        "Data": "2022-06-08 00:00:00",
-        "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "7ª/2022",
-        "Valor": 3396600,
+        "Portaria": "REM 02909/2022",
+        "Data": "2022-08-15 00:00:00",
+        "Tipo": "Remanejamento_Intra",
+        "Incentivo": "DECISÃO CIB",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "9ª/2022",
+        "Valor": 80054338,
         "Ano": 2022,
-        "Competência_Num": 7
+        "Competência_Num": 9
+    },
+    {
+        "Portaria": "GM 05579/2024",
+        "Data": "2024-10-29 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Outros Incentivos",
+        "Competência": "12ª/2024",
+        "Valor": 5304000,
+        "Ano": 2024,
+        "Competência_Num": 12
     }
 ]

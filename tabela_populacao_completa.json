@@ -1,112 +1,112 @@
 {
     "Menos de 1 ano":{
-        "Homens":74,
-        "Mulheres":86,
-        "Total":160
-    },
-    "0 a 4 anos":{
-        "Homens":424,
-        "Mulheres":432,
-        "Total":856
-    },
-    "5 a 9 anos":{
-        "Homens":520,
-        "Mulheres":467,
-        "Total":987
-    },
-    "10 a 14 anos":{
-        "Homens":506,
-        "Mulheres":483,
-        "Total":989
-    },
-    "15 a 19 anos":{
-        "Homens":569,
-        "Mulheres":524,
-        "Total":1093
-    },
-    "20 a 24 anos":{
-        "Homens":554,
-        "Mulheres":497,
-        "Total":1051
-    },
-    "25 a 29 anos":{
-        "Homens":473,
-        "Mulheres":467,
-        "Total":940
-    },
-    "30 a 34 anos":{
-        "Homens":468,
-        "Mulheres":407,
-        "Total":875
-    },
-    "35 a 39 anos":{
-        "Homens":516,
-        "Mulheres":485,
-        "Total":1001
-    },
-    "40 a 44 anos":{
-        "Homens":514,
-        "Mulheres":452,
-        "Total":966
-    },
-    "45 a 49 anos":{
-        "Homens":424,
-        "Mulheres":346,
-        "Total":770
-    },
-    "50 a 54 anos":{
-        "Homens":370,
-        "Mulheres":324,
-        "Total":694
-    },
-    "55 a 59 anos":{
-        "Homens":375,
-        "Mulheres":371,
-        "Total":746
-    },
-    "60 a 64 anos":{
-        "Homens":324,
-        "Mulheres":301,
-        "Total":625
-    },
-    "65 a 69 anos":{
-        "Homens":225,
-        "Mulheres":222,
-        "Total":447
-    },
-    "70 a 74 anos":{
-        "Homens":200,
-        "Mulheres":180,
-        "Total":380
-    },
-    "75 a 79 anos":{
-        "Homens":120,
-        "Mulheres":129,
+        "Homens":137,
+        "Mulheres":112,
         "Total":249
     },
+    "0 a 4 anos":{
+        "Homens":697,
+        "Mulheres":645,
+        "Total":1342
+    },
+    "5 a 9 anos":{
+        "Homens":null,
+        "Mulheres":null,
+        "Total":null
+    },
+    "10 a 14 anos":{
+        "Homens":669,
+        "Mulheres":684,
+        "Total":1353
+    },
+    "15 a 19 anos":{
+        "Homens":802,
+        "Mulheres":775,
+        "Total":1577
+    },
+    "20 a 24 anos":{
+        "Homens":816,
+        "Mulheres":755,
+        "Total":1571
+    },
+    "25 a 29 anos":{
+        "Homens":723,
+        "Mulheres":685,
+        "Total":1408
+    },
+    "30 a 34 anos":{
+        "Homens":688,
+        "Mulheres":663,
+        "Total":1351
+    },
+    "35 a 39 anos":{
+        "Homens":707,
+        "Mulheres":725,
+        "Total":1432
+    },
+    "40 a 44 anos":{
+        "Homens":765,
+        "Mulheres":739,
+        "Total":1504
+    },
+    "45 a 49 anos":{
+        "Homens":651,
+        "Mulheres":639,
+        "Total":1290
+    },
+    "50 a 54 anos":{
+        "Homens":612,
+        "Mulheres":570,
+        "Total":1182
+    },
+    "55 a 59 anos":{
+        "Homens":627,
+        "Mulheres":605,
+        "Total":1232
+    },
+    "60 a 64 anos":{
+        "Homens":552,
+        "Mulheres":486,
+        "Total":1038
+    },
+    "65 a 69 anos":{
+        "Homens":397,
+        "Mulheres":393,
+        "Total":790
+    },
+    "70 a 74 anos":{
+        "Homens":377,
+        "Mulheres":354,
+        "Total":731
+    },
+    "75 a 79 anos":{
+        "Homens":307,
+        "Mulheres":336,
+        "Total":643
+    },
     "80 a 84 anos":{
-        "Homens":91,
-        "Mulheres":88,
-        "Total":179
+        "Homens":222,
+        "Mulheres":220,
+        "Total":442
     },
     "85 a 89 anos":{
-        "Homens":29,
-        "Mulheres":53,
-        "Total":82
+        "Homens":112,
+        "Mulheres":159,
+        "Total":271
     },
     "90 a 94 anos":{
-        "Homens":15,
-        "Mulheres":13,
-        "Total":28
+        "Homens":38,
+        "Mulheres":75,
+        "Total":113
     },
     "95 a 99 anos":{
-        "Homens":3,
-        "Mulheres":6,
-        "Total":9
+        "Homens":14,
+        "Mulheres":18,
+        "Total":32
     },
     "100 anos ou mais":{
-        "Homens":0,
-        "Mulheres":1,
-        "Total":1
+        "Homens":2,
+        "Mulheres":11,
+        "Total":13
     }
 }
