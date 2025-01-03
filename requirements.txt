@@ -2,3 +2,4 @@ plotly
 plotly-express
 pandas
 babel
+streamlit-extras
