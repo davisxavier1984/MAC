@@ -15,41 +15,51 @@ def load_json(file_path):
 evolucao_mac = load_json('evolucao_mac.json')
 dados_economicos = load_json('dados_economicos.json')
 
-# Processar dados de evolução do MAC
+# Extrair dados do JSON
+sem_incentivos = evolucao_mac[0]["Sem Incentivos"]
+incentivos = evolucao_mac[1]["Incentivos"]
+teto_financeiro = evolucao_mac[2]["Teto Financeiro MAC"]
+
+# Obter anos e valores
+anos = list(map(int, teto_financeiro.keys()))
+valores_sem_incentivos = list(map(float, sem_incentivos.values()))
+valores_incentivos = list(map(float, incentivos.values()))
+valores_teto_total = list(map(float, teto_financeiro.values()))
+
+# Criar dicionário de dados
 dados_mac = {
-    'Ano': list(map(int, evolucao_mac[2]['Teto Financeiro MAC'].keys())),
-    'Teto Total (R$)': list(map(float, evolucao_mac[2]['Teto Financeiro MAC'].values())),
-    'Sem Incentivos (R$)': list(map(float, evolucao_mac[0]['Sem Incentivos'].values())),
-    'Incentivos (R$)': list(map(float, evolucao_mac[1]['Incentivos'].values()))
+    'Ano': anos,
+    'Sem Incentivos (R$)': valores_sem_incentivos,
+    'Incentivos (R$)': valores_incentivos,
+    'Teto Total (R$)': valores_teto_total
 }
 
-# Repetir o valor de 2023 para 2024
-dados_mac['Ano'].append(2024)
-dados_mac['Teto Total (R$)'].append(dados_mac['Teto Total (R$)'][-1])  # Repete 2023 para 2024
-dados_mac['Sem Incentivos (R$)'].append(dados_mac['Sem Incentivos (R$)'][-1])  # Repete 2023 para 2024
-dados_mac['Incentivos (R$)'].append(dados_mac['Incentivos (R$)'][-1])  # Repete 2023 para 2024
+# Identificar o último ano disponível
+ultimo_ano = max(anos)
 
-# Calcular o aumento de 15% para cada valor em 2025
-valor_teto_2023 = dados_mac['Teto Total (R$)'][-2]  # Último valor disponível (2023)
-valor_sem_incentivos_2023 = dados_mac['Sem Incentivos (R$)'][-2]  # Último valor disponível (2023)
-valor_incentivos_2023 = dados_mac['Incentivos (R$)'][-2]  # Último valor disponível (2023)
+# Calcular o aumento de 15% para cada valor no próximo ano
+valor_teto_ultimo_ano = dados_mac['Teto Total (R$)'][-1]
+valor_sem_incentivos_ultimo_ano = dados_mac['Sem Incentivos (R$)'][-1]
+valor_incentivos_ultimo_ano = dados_mac['Incentivos (R$)'][-1]
 
 # Aplicar aumento de 15% a cada valor
-aumento_teto = valor_teto_2023 * 0.15
-aumento_sem_incentivos = valor_sem_incentivos_2023 * 0.15
-aumento_incentivos = valor_incentivos_2023 * 0.15
+aumento_teto = valor_teto_ultimo_ano * 0.15
+aumento_sem_incentivos = valor_sem_incentivos_ultimo_ano * 0.15
+aumento_incentivos = valor_incentivos_ultimo_ano * 0.15
 
-# Valores projetados para 2025
-valor_teto_2025 = valor_teto_2023 + aumento_teto
-valor_sem_incentivos_2025 = valor_sem_incentivos_2023 + aumento_sem_incentivos
-valor_incentivos_2025 = valor_incentivos_2023 + aumento_incentivos
+# Valores projetados para o próximo ano
+proximo_ano = ultimo_ano + 1
+valor_teto_proximo_ano = valor_teto_ultimo_ano + aumento_teto
+valor_sem_incentivos_proximo_ano = valor_sem_incentivos_ultimo_ano + aumento_sem_incentivos
+valor_incentivos_proximo_ano = valor_incentivos_ultimo_ano + aumento_incentivos
 
-# Adicionar previsão para 2025
-dados_mac['Ano'].append(2025)
-dados_mac['Teto Total (R$)'].append(valor_teto_2025)  # Previsão para 2025
-dados_mac['Sem Incentivos (R$)'].append(valor_sem_incentivos_2025)  # Previsão para 2025
-dados_mac['Incentivos (R$)'].append(valor_incentivos_2025)  # Previsão para 2025
+# Adicionar previsão para o próximo ano
+dados_mac['Ano'].append(proximo_ano)
+dados_mac['Sem Incentivos (R$)'].append(valor_sem_incentivos_proximo_ano)
+dados_mac['Incentivos (R$)'].append(valor_incentivos_proximo_ano)
+dados_mac['Teto Total (R$)'].append(valor_teto_proximo_ano)
 
+# Criar DataFrame
 df = pd.DataFrame(dados_mac)
 
 # Função para estilizar métricas com IDs únicos
@@ -92,9 +102,9 @@ def style_metric_card(
     )
 
 # Calcular valores e formatar
-recurso_atual_anual = format_currency(dados_mac['Teto Total (R$)'][-3], 'BRL', locale='pt_BR')  # Valor de 2023
+recurso_atual_anual = format_currency(dados_mac['Teto Total (R$)'][-2], 'BRL', locale='pt_BR')  # Valor do último ano disponível
 potencial_aumento_anual = format_currency(aumento_teto, 'BRL', locale='pt_BR')
-soma_total = format_currency(valor_teto_2025, 'BRL', locale='pt_BR')
+soma_total = format_currency(valor_teto_proximo_ano, 'BRL', locale='pt_BR')
 
 # Função para converter imagem em base64
 def img_to_base64(file_path):
@@ -192,14 +202,14 @@ with col3:
 
 # Gráfico da evolução do teto MAC
 fig1 = px.line(df, x='Ano', y=['Teto Total (R$)', 'Sem Incentivos (R$)', 'Incentivos (R$)'],
-               title=f"Evolução do Teto MAC em {nome_municipio} - PE (2010-2025)")
+               title=f"Evolução do Teto MAC em {nome_municipio} - {uf} ({min(anos)}-{proximo_ano})")
 
-# Destaque para projeção de 2024 para 2025
-fig1.add_trace(go.Scatter(x=[2024, 2025], y=[dados_mac['Teto Total (R$)'][-2], dados_mac['Teto Total (R$)'][-1]],
+# Destaque para projeção do último ano para o próximo ano
+fig1.add_trace(go.Scatter(x=[ultimo_ano, proximo_ano], y=[dados_mac['Teto Total (R$)'][-2], dados_mac['Teto Total (R$)'][-1]],
                           mode='lines+markers+text',
-                          name='Projeção (15%)',
+                          name='Projeção',
                           line=dict(color='blue', width=4, dash='dash'),  # Linha tracejada
-                          text=["2024", "2025"],
+                          text=[str(ultimo_ano), str(proximo_ano)],
                           textposition="top center"))
 
 st.plotly_chart(fig1)
