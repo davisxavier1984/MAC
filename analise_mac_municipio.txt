@@ -1,29 +1,34 @@
 
-# Análise da Evolução do Teto Financeiro MAC - Wanderley
+# Análise da Evolução do Teto Financeiro MAC - Surubim
 
 ## Análise da Tendência
-Análise da Tendência do Teto Financeiro MAC para Wanderley
+Análise da Tendência do Teto Financeiro MAC em Surubim
 
-O teto financeiro MAC para o município de Wanderley apresentou uma tendência de crescimento no período analisado, apesar de algumas oscilações.  Observamos um valor inicial de R\$ 157.500,00 em 2015, que demonstra um aumento significativo até R\$ 341.936,40 em 2025.  Esse crescimento, embora expressivo, não foi linear.
+O teto financeiro MAC do município de Surubim apresentou uma tendência de crescimento significativo entre os anos de 2008 e 2023, com algumas oscilações.  Em 2008, o valor inicial era de R\$5.985.755,17.  Observamos um aumento constante até 2014, atingindo o pico de R\$8.530.132,80.  A partir de 2015, nota-se uma pequena queda, possivelmente influenciada por mudanças nas políticas de incentivos.
 
-Entre 2015 e 2017, houve um aumento considerável do teto, passando de R\$ 157.500,00 para R\$ 263.028,00.  Este salto pode ser atribuído, possivelmente, ao impacto de portarias que implementaram novas políticas ou incentivos financeiros para a saúde no município.  A ausência de dados para os anos de 2018 demonstra uma lacuna na série temporal que dificulta uma análise mais precisa da influência das portarias nesse período.
+A análise detalhada da evolução do teto financeiro MAC, considerando os valores de "Sem Incentivos" e "Incentivos", revela que a parcela referente aos incentivos teve um impacto considerável na variação total.  No início do período analisado, os incentivos representavam uma pequena porcentagem do teto total. No entanto, a partir de 2014, observa-se um crescimento exponencial dos incentivos, contribuindo significativamente para o aumento do teto MAC até 2017.  A partir de 2018, embora os incentivos continuem altos, o crescimento do teto total diminui, indicando uma possível saturação ou mudança na dinâmica dos incentivos.
 
-Após 2017, o teto permaneceu estável em R\$ 263.028,00 por alguns anos, indicando uma possível consolidação das políticas implementadas anteriormente.  A partir de 2023, no entanto, observa-se uma retomada do crescimento, atingindo R\$ 341.936,40 em 2025.  Essa nova fase de crescimento sugere a influência de novas portarias ou ajustes nas políticas de financiamento da saúde, que possivelmente levaram a um aumento nos recursos destinados ao município.  A variação percentual total entre 2015 e 2025 é de :green[117,2%], demonstrando um crescimento substancial no teto financeiro MAC.
-
-A análise completa da influência das portarias requer uma investigação mais detalhada de seus conteúdos e impactos específicos sobre o financiamento da saúde em Wanderley.  No entanto, a análise da evolução do teto MAC indica uma forte correlação entre a publicação dessas portarias e as mudanças observadas nos valores financeiros.  A ausência de dados para alguns anos limita a precisão da análise, mas a tendência geral de crescimento é inegável.
+A variação percentual entre 2008 e 2023 demonstra um aumento considerável no teto financeiro MAC.  O valor final em 2023 foi de R\$11.037.498,97, representando um aumento de aproximadamente :red[84,4%] em relação ao valor inicial.  Essa variação, embora expressiva, não foi linear, apresentando flutuações anuais que merecem uma análise mais aprofundada, correlacionando-as com as portarias e as políticas de saúde implementadas ao longo do período.  A queda observada em 2015 e a subsequente estabilidade até 2017, por exemplo, podem ser explicadas por eventuais mudanças nas políticas de incentivos, que merecem ser investigadas com mais detalhes.  A projeção para 2024 e 2025 indica uma redução no teto, o que reforça a necessidade de uma análise minuciosa para justificar o pleito de ajuste.
 
 ## Influência das Portarias
 As portarias listadas abaixo tiveram impacto significativo na evolução do Teto Financeiro MAC. A análise detalhada da influência de cada portaria foge ao escopo deste documento, mas é possível afirmar que os acréscimos e remanejamentos descritos contribuíram diretamente para o aumento do teto ao longo dos anos.
 
 ### Tabela 1: Portarias com Maior Impacto na Evolução do Teto MAC
 
-| Portaria | Data | Tipo | Incentivo | Valor (R\$) | Competência |
+| Portaria | Data | Tipo | Incentivo | Valor (R$) | Competência |
 |---|---|---|---|---|---|
-| GM 06267/2024 | 27/12/2024 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 841.920,00 | 11ª/2024 |
-| GM 01631/2023 | 24/10/2023 | Acréscimo | Incentivo SAMU | 2.047.500,00 | 8ª/2023 |
-| GM 01261/2023 | 13/09/2023 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 920.760,00 | 6ª/2023 |
-| GM 01366/2022 | 08/06/2022 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 3.396.600,00 | 7ª/2022 |
+| GM 03949/2024 | 28/06/2024 | Recurso Mantido | Incentivo EMAD I, EMAD II e EMAP | 6.000.000,00 | 1ª/2024 |
+| GM 03949/2024 | 28/06/2024 | Acréscimo | Incentivo EMAD I, EMAD II e EMAP | 1.800.000,00 | 1ª/2024 |
+| GM 02619/2023 | 27/12/2023 | Acréscimo | Incentivo EMAD I, EMAD II e EMAP | 936.000,00 | 12ª/2023 |
+| GM 01631/2023 | 24/10/2023 | Acréscimo | Incentivo SAMU | 8.053.500,00 | 8ª/2023 |
+| GM 00015/2018 | 05/01/2018 | Acréscimo | ALTERAÇÃO FORMA FINANCIAMENTO | 553.050,00 | 2ª/2018 |
+| GM 02200/2014 | 06/10/2014 | Acréscimo | Incentivo HOSPITAIS FILANTRÓPICOS | 70.081.344,00 | 11ª/2014 |
+| GM 02602/2012 | 19/11/2012 | Acréscimo | TABELA DE PROCEDIMENTOS | 20.000,00 | 1ª/2013 |
+| GM 01416/2012 | 09/07/2012 | Acréscimo | Incentivo HOSPITAIS FILANTRÓPICOS | 21.084.743,00 | 2ª/2012 |
+| GM 04120/2010 | 24/12/2010 | Acréscimo | TABELA DE PROCEDIMENTOS | 5.149,00 | 1ª/2011 |
+| GM 01195/2009 | 05/06/2009 | Acréscimo | Incentivo CAPS I, II, III, i e ad | 4.747.644,00 | 7ª/2009 |
+| SAS 00056/2009 | 04/03/2009 | Remanejamento_Intra | DECISÃO CIB | 8.835.532,00 | 3ª/2009 |
 
 
 ## Conclusão
-A análise da evolução do Teto Financeiro MAC para o município de Wanderley demonstra um crescimento significativo no período analisado, com uma variação percentual de :green[117,2%] entre 2015 e 2025.  Apesar de algumas oscilações e lacunas nos dados, a tendência de aumento é clara e possivelmente relacionada à implementação de portarias que impactaram o financiamento da saúde no município.  A análise detalhada das portarias e sua correlação com a produção ambulatorial e hospitalar fornecerá subsídios adicionais para a justificativa do pleito de ajuste do teto MAC para o próximo ano.
+A análise da evolução do teto financeiro MAC de Surubim entre 2008 e 2023 revela um crescimento significativo, impulsionado principalmente pelo aumento dos incentivos a partir de 2014.  Apesar do aumento considerável de :green[84,4%] no período, a tendência nos últimos anos aponta para uma estabilização e, inclusive, uma projeção de redução para os próximos anos.  Essa análise demonstra a necessidade de um ajuste no teto financeiro MAC para o ano seguinte, considerando a dinâmica da demanda e a necessidade de garantir a continuidade dos serviços de saúde no município.  Uma análise mais detalhada, correlacionando a produção ambulatorial e hospitalar com a evolução do teto, se faz necessária para embasar de forma mais robusta a solicitação de ajuste.

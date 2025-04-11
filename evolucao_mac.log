@@ -1,694 +1,412 @@
-2024-12-28 12:11:14,906 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 12:11:14,906 - INFO - Waiting for 'Município' link...
-2024-12-28 12:11:15,407 - INFO - 'Município' link clicked!
-2024-12-28 12:11:25,026 - INFO - Waiting for dropdown...
-2024-12-28 12:11:25,132 - INFO - Dropdown option '80' selected!
-2024-12-28 12:11:25,132 - INFO - Waiting for table rows to load...
-2024-12-28 12:11:25,151 - INFO - Table rows loaded!
-2024-12-28 12:11:26,164 - INFO - Found 14 rows.
-2024-12-28 12:11:26,691 - INFO - Table data extracted.
-2024-12-28 12:11:26,692 - INFO - DataFrame created:
-2024-12-28 12:11:26,692 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2010   1.261.568,54        0,00        1.261.568,54
-1        2011   2.164.473,85        0,00        2.164.473,85
-2        2012   2.164.473,85        0,00        2.164.473,85
-3        2013   2.164.473,84        0,00        2.164.473,84
-4        2014   2.164.473,84   41.806,32        2.206.280,16
-5        2015   2.164.473,84  223.125,00        2.387.598,84
-6        2016   2.164.473,84  164.100,00        2.328.573,84
-7        2017   2.164.473,84  218.550,00        2.383.023,84
-8        2018   2.164.473,85  167.400,00        2.331.873,85
-9        2019   2.164.473,85  144.375,00        2.308.848,85
-10       2020   2.164.473,85  157.500,00        2.321.973,85
-11       2021   2.164.473,85  157.500,00        2.321.973,85
-12       2022   2.164.473,85  327.330,00        2.491.803,85
-13       2023   2.164.473,85  524.116,50        2.688.590,35
-2024-12-28 12:11:26,746 - INFO - Data saved to evolucao_mac.json
-2024-12-28 18:49:54,718 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 18:49:54,719 - INFO - Waiting for 'Município' link...
-2024-12-28 18:49:54,833 - INFO - 'Município' link clicked!
-2024-12-28 18:50:04,116 - INFO - Waiting for dropdown...
-2024-12-28 18:50:04,206 - INFO - Dropdown option '80' selected!
-2024-12-28 18:50:04,207 - INFO - Waiting for table rows to load...
-2024-12-28 18:50:04,226 - INFO - Table rows loaded!
-2024-12-28 18:50:05,273 - INFO - Found 12 rows.
-2024-12-28 18:50:05,771 - INFO - Table data extracted.
-2024-12-28 18:50:05,772 - INFO - DataFrame created:
-2024-12-28 18:50:05,772 - INFO -    Referência Sem Incentivos Incentivos Teto Financeiro MAC
-0        2012   1.050.000,00       0,00        1.050.000,00
-1        2013   2.100.000,00       0,00        2.100.000,00
-2        2014   2.115.768,57       0,00        2.115.768,57
-3        2015   2.123.542,48       0,00        2.123.542,48
-4        2016   2.169.129,98       0,00        2.169.129,98
-5        2017   2.116.267,70       0,00        2.116.267,70
-6        2018   2.911.596,10       0,00        2.911.596,10
-7        2019   4.075.804,36       0,00        4.075.804,36
-8        2020   4.099.247,93       0,00        4.099.247,93
-9        2021   3.001.379,16       0,00        3.001.379,16
-10       2022   2.901.379,16       0,00        2.901.379,16
-11       2023   2.901.379,16  26.909,25        2.928.288,41
-2024-12-28 18:50:05,788 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:16:06,348 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:16:06,348 - INFO - Waiting for 'Município' link...
-2024-12-28 20:16:06,465 - INFO - 'Município' link clicked!
-2024-12-28 20:16:15,928 - INFO - Waiting for dropdown...
-2024-12-28 20:16:15,999 - INFO - Dropdown option '80' selected!
-2024-12-28 20:16:15,999 - INFO - Waiting for table rows to load...
-2024-12-28 20:16:16,017 - INFO - Table rows loaded!
-2024-12-28 20:16:17,030 - INFO - Found 12 rows.
-2024-12-28 20:16:17,492 - INFO - Table data extracted.
-2024-12-28 20:16:17,493 - INFO - DataFrame created:
-2024-12-28 20:16:17,493 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012     146.881,35    207.900,00          354.781,35
-1        2013     293.762,65    476.100,00          769.862,65
-2        2014     891.128,29    787.560,00        1.678.688,29
-3        2015      43.246,40  1.134.360,00        1.177.606,40
-4        2016     124.851,12  1.141.860,00        1.266.711,12
-5        2017       8.182,66  1.237.560,00        1.245.742,66
-6        2018     369.796,39  1.771.810,00        2.141.606,39
-7        2019   2.059.812,81  2.037.360,00        4.097.172,81
-8        2020   2.482.648,24  2.037.360,00        4.520.008,24
-9        2021   2.484.387,84  2.037.360,00        4.521.747,84
-10       2022   2.073.440,75  2.037.360,00        4.110.800,75
-11       2023   4.353.745,12  2.069.712,00        6.423.457,12
-2024-12-28 20:16:17,509 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:35:09,033 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:35:09,033 - INFO - Waiting for 'Município' link...
-2024-12-28 20:35:09,163 - INFO - 'Município' link clicked!
-2024-12-28 20:35:18,460 - INFO - Waiting for dropdown...
-2024-12-28 20:35:18,535 - INFO - Dropdown option '80' selected!
-2024-12-28 20:35:18,535 - INFO - Waiting for table rows to load...
-2024-12-28 20:35:18,553 - INFO - Table rows loaded!
-2024-12-28 20:35:19,566 - INFO - Found 12 rows.
-2024-12-28 20:35:20,020 - INFO - Table data extracted.
-2024-12-28 20:35:20,021 - INFO - DataFrame created:
-2024-12-28 20:35:20,021 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 20:35:20,038 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:39:53,659 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:39:53,659 - INFO - Waiting for 'Município' link...
-2024-12-28 20:39:53,806 - INFO - 'Município' link clicked!
-2024-12-28 20:42:44,141 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:42:44,141 - INFO - Waiting for 'Município' link...
-2024-12-28 20:42:44,270 - INFO - 'Município' link clicked!
-2024-12-28 20:42:53,622 - INFO - Waiting for dropdown...
-2024-12-28 20:42:53,689 - INFO - Dropdown option '80' selected!
-2024-12-28 20:42:53,690 - INFO - Waiting for table rows to load...
-2024-12-28 20:42:53,711 - INFO - Table rows loaded!
-2024-12-28 20:42:54,725 - INFO - Found 12 rows.
-2024-12-28 20:42:55,197 - INFO - Table data extracted.
-2024-12-28 20:42:55,198 - INFO - DataFrame created:
-2024-12-28 20:42:55,198 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 20:42:55,218 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:44:19,738 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:44:19,739 - INFO - Waiting for 'Município' link...
-2024-12-28 20:44:19,866 - INFO - 'Município' link clicked!
-2024-12-28 20:44:29,121 - INFO - Waiting for dropdown...
-2024-12-28 20:44:29,190 - INFO - Dropdown option '80' selected!
-2024-12-28 20:44:29,190 - INFO - Waiting for table rows to load...
-2024-12-28 20:44:29,209 - INFO - Table rows loaded!
-2024-12-28 20:44:30,227 - INFO - Found 12 rows.
-2024-12-28 20:44:30,716 - INFO - Table data extracted.
-2024-12-28 20:44:30,716 - INFO - DataFrame created:
-2024-12-28 20:44:30,717 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2012      33.176,91        0,00           33.176,91
-1        2013      33.176,88        0,00           33.176,88
-2        2014      33.176,88    6.282,36           39.459,24
-3        2015      33.176,88        0,00           33.176,88
-4        2016      33.176,88        0,00           33.176,88
-5        2017      33.176,88        0,00           33.176,88
-6        2018      33.176,91        0,00           33.176,91
-7        2019      33.176,91        0,00           33.176,91
-8        2020      33.176,91        0,00           33.176,91
-9        2021      33.176,91        0,00           33.176,91
-10       2022      33.176,91  169.830,00          203.006,91
-11       2023      33.176,91  362.679,00          395.855,91
-2024-12-28 20:44:30,732 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:46:21,073 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:46:21,075 - INFO - Waiting for 'Município' link...
-2024-12-28 20:46:21,209 - INFO - 'Município' link clicked!
-2024-12-28 20:46:30,450 - INFO - Waiting for dropdown...
-2024-12-28 20:46:30,524 - INFO - Dropdown option '80' selected!
-2024-12-28 20:46:30,525 - INFO - Waiting for table rows to load...
-2024-12-28 20:46:30,546 - INFO - Table rows loaded!
-2024-12-28 20:46:31,560 - INFO - Found 12 rows.
-2024-12-28 20:46:32,044 - INFO - Table data extracted.
-2024-12-28 20:46:32,045 - INFO - DataFrame created:
-2024-12-28 20:46:32,045 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2012      33.176,91        0,00           33.176,91
-1        2013      33.176,88        0,00           33.176,88
-2        2014      33.176,88    6.282,36           39.459,24
-3        2015      33.176,88        0,00           33.176,88
-4        2016      33.176,88        0,00           33.176,88
-5        2017      33.176,88        0,00           33.176,88
-6        2018      33.176,91        0,00           33.176,91
-7        2019      33.176,91        0,00           33.176,91
-8        2020      33.176,91        0,00           33.176,91
-9        2021      33.176,91        0,00           33.176,91
-10       2022      33.176,91  169.830,00          203.006,91
-11       2023      33.176,91  362.679,00          395.855,91
-2024-12-28 20:46:32,061 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:47:38,241 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:47:38,241 - INFO - Waiting for 'Município' link...
-2024-12-28 20:47:38,381 - INFO - 'Município' link clicked!
-2024-12-28 20:47:47,531 - INFO - Waiting for dropdown...
-2024-12-28 20:47:47,598 - INFO - Dropdown option '80' selected!
-2024-12-28 20:47:47,599 - INFO - Waiting for table rows to load...
-2024-12-28 20:47:47,620 - INFO - Table rows loaded!
-2024-12-28 20:47:48,633 - INFO - Found 12 rows.
-2024-12-28 20:47:49,239 - INFO - Table data extracted.
-2024-12-28 20:47:49,241 - INFO - DataFrame created:
-2024-12-28 20:47:49,241 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 20:47:49,264 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:49:50,706 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:49:50,706 - INFO - Waiting for 'Município' link...
-2024-12-28 20:49:50,823 - INFO - 'Município' link clicked!
-2024-12-28 20:50:00,246 - INFO - Waiting for dropdown...
-2024-12-28 20:50:00,364 - INFO - Dropdown option '80' selected!
-2024-12-28 20:50:00,364 - INFO - Waiting for table rows to load...
-2024-12-28 20:50:00,384 - INFO - Table rows loaded!
-2024-12-28 20:50:01,398 - INFO - Found 12 rows.
-2024-12-28 20:50:01,887 - INFO - Table data extracted.
-2024-12-28 20:50:01,888 - INFO - DataFrame created:
-2024-12-28 20:50:01,888 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 20:50:01,905 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:51:45,683 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:51:45,684 - INFO - Waiting for 'Município' link...
-2024-12-28 20:51:45,823 - INFO - 'Município' link clicked!
-2024-12-28 20:51:55,098 - INFO - Waiting for dropdown...
-2024-12-28 20:51:55,169 - INFO - Dropdown option '80' selected!
-2024-12-28 20:51:55,169 - INFO - Waiting for table rows to load...
-2024-12-28 20:51:55,191 - INFO - Table rows loaded!
-2024-12-28 20:51:56,204 - INFO - Found 12 rows.
-2024-12-28 20:51:56,723 - INFO - Table data extracted.
-2024-12-28 20:51:56,724 - INFO - DataFrame created:
-2024-12-28 20:51:56,724 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 20:51:56,741 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:53:10,776 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:53:10,776 - INFO - Waiting for 'Município' link...
-2024-12-28 20:53:10,910 - INFO - 'Município' link clicked!
-2024-12-28 20:53:20,353 - INFO - Waiting for dropdown...
-2024-12-28 20:53:20,434 - INFO - Dropdown option '80' selected!
-2024-12-28 20:53:20,436 - INFO - Waiting for table rows to load...
-2024-12-28 20:53:20,471 - INFO - Table rows loaded!
-2024-12-28 20:53:21,487 - INFO - Found 12 rows.
-2024-12-28 20:53:21,948 - INFO - Table data extracted.
-2024-12-28 20:53:21,949 - INFO - DataFrame created:
-2024-12-28 20:53:21,949 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2012      33.176,91        0,00           33.176,91
-1        2013      33.176,88        0,00           33.176,88
-2        2014      33.176,88    6.282,36           39.459,24
-3        2015      33.176,88        0,00           33.176,88
-4        2016      33.176,88        0,00           33.176,88
-5        2017      33.176,88        0,00           33.176,88
-6        2018      33.176,91        0,00           33.176,91
-7        2019      33.176,91        0,00           33.176,91
-8        2020      33.176,91        0,00           33.176,91
-9        2021      33.176,91        0,00           33.176,91
-10       2022      33.176,91  169.830,00          203.006,91
-11       2023      33.176,91  362.679,00          395.855,91
-2024-12-28 20:53:21,965 - INFO - Data saved to evolucao_mac.json
-2024-12-28 20:55:59,956 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:55:59,957 - INFO - Waiting for 'Município' link...
-2024-12-28 20:56:00,095 - INFO - 'Município' link clicked!
-2024-12-28 20:56:09,268 - INFO - Waiting for dropdown...
-2024-12-28 20:56:09,377 - INFO - Dropdown option '80' selected!
-2024-12-28 20:56:09,377 - INFO - Waiting for table rows to load...
-2024-12-28 20:56:09,406 - INFO - Table rows loaded!
-2024-12-28 20:57:34,743 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 20:57:34,744 - INFO - Waiting for 'Município' link...
-2024-12-28 20:57:34,961 - INFO - 'Município' link clicked!
-2024-12-28 21:00:43,621 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:00:43,622 - INFO - Waiting for 'Município' link...
-2024-12-28 21:00:43,752 - INFO - 'Município' link clicked!
-2024-12-28 21:00:52,778 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/ea669d1bf493887ded157f65f764b384
-2024-12-28 21:00:52,781 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a376c4e50>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ea669d1bf493887ded157f65f764b384
-2024-12-28 21:00:52,782 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6a376c57d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ea669d1bf493887ded157f65f764b384
-2024-12-28 21:04:35,756 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:04:35,759 - INFO - Waiting for 'Município' link...
-2024-12-28 21:04:35,916 - INFO - 'Município' link clicked!
-2024-12-28 21:05:24,181 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:05:24,182 - INFO - Waiting for 'Município' link...
-2024-12-28 21:05:24,322 - INFO - 'Município' link clicked!
-2024-12-28 21:06:48,385 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:06:48,386 - INFO - Waiting for 'Município' link...
-2024-12-28 21:06:48,512 - INFO - 'Município' link clicked!
-2024-12-28 21:06:57,893 - INFO - Waiting for dropdown...
-2024-12-28 21:06:57,973 - INFO - Dropdown option '80' selected!
-2024-12-28 21:06:57,973 - INFO - Waiting for table rows to load...
-2024-12-28 21:06:57,989 - INFO - Table rows loaded!
-2024-12-28 21:06:59,003 - INFO - Found 12 rows.
-2024-12-28 21:06:59,475 - INFO - Table data extracted.
-2024-12-28 21:06:59,476 - INFO - DataFrame created:
-2024-12-28 21:06:59,476 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2012      33.176,91        0,00           33.176,91
-1        2013      33.176,88        0,00           33.176,88
-2        2014      33.176,88    6.282,36           39.459,24
-3        2015      33.176,88        0,00           33.176,88
-4        2016      33.176,88        0,00           33.176,88
-5        2017      33.176,88        0,00           33.176,88
-6        2018      33.176,91        0,00           33.176,91
-7        2019      33.176,91        0,00           33.176,91
-8        2020      33.176,91        0,00           33.176,91
-9        2021      33.176,91        0,00           33.176,91
-10       2022      33.176,91  169.830,00          203.006,91
-11       2023      33.176,91  362.679,00          395.855,91
-2024-12-28 21:06:59,498 - INFO - Data saved to evolucao_mac.json
-2024-12-28 21:10:26,256 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:10:26,256 - INFO - Waiting for 'Município' link...
-2024-12-28 21:10:26,389 - INFO - 'Município' link clicked!
-2024-12-28 21:11:05,654 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:11:05,654 - INFO - Waiting for 'Município' link...
-2024-12-28 21:11:05,783 - INFO - 'Município' link clicked!
-2024-12-28 21:11:15,229 - INFO - Waiting for dropdown...
-2024-12-28 21:11:15,296 - INFO - Dropdown option '80' selected!
-2024-12-28 21:11:15,297 - INFO - Waiting for table rows to load...
-2024-12-28 21:11:15,311 - INFO - Table rows loaded!
-2024-12-28 21:11:16,326 - INFO - Found 12 rows.
-2024-12-28 21:11:16,786 - INFO - Table data extracted.
-2024-12-28 21:11:16,787 - INFO - DataFrame created:
-2024-12-28 21:11:16,787 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 21:11:16,806 - INFO - Data saved to evolucao_mac.json
-2024-12-28 21:31:31,349 - INFO - Baixando Evolução do Teto MAC...
-2024-12-28 21:31:31,350 - INFO - Waiting for 'Município' link...
-2024-12-28 21:31:31,464 - INFO - 'Município' link clicked!
-2024-12-28 21:31:40,841 - INFO - Waiting for dropdown...
-2024-12-28 21:31:40,906 - INFO - Dropdown option '80' selected!
-2024-12-28 21:31:40,906 - INFO - Waiting for table rows to load...
-2024-12-28 21:31:40,925 - INFO - Table rows loaded!
-2024-12-28 21:31:41,940 - INFO - Found 12 rows.
-2024-12-28 21:31:42,397 - INFO - Table data extracted.
-2024-12-28 21:31:42,398 - INFO - DataFrame created:
-2024-12-28 21:31:42,398 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012   1.695.351,07    599.100,00        2.294.451,07
-1        2013   1.671.549,58    693.750,00        2.365.299,58
-2        2014   1.673.287,08    818.100,00        2.491.387,08
-3        2015   1.641.551,20    838.100,00        2.479.651,20
-4        2016   1.638.666,12  1.306.615,00        2.945.281,12
-5        2017   1.878.780,28  1.310.280,00        3.189.060,28
-6        2018   1.679.564,36  1.340.730,00        3.020.294,36
-7        2019   3.156.914,53  1.251.540,00        4.408.454,53
-8        2020   3.648.125,84  1.321.680,00        4.969.805,84
-9        2021   3.648.125,84  1.321.680,00        4.969.805,84
-10       2022   3.649.450,09  1.321.680,00        4.971.130,09
-11       2023   3.740.436,20  1.365.741,00        5.106.177,20
-2024-12-28 21:31:42,413 - INFO - Data saved to evolucao_mac.json
-2024-12-29 19:49:19,732 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 19:49:19,816 - INFO - Waiting for 'Município' link...
-2024-12-29 19:49:20,635 - INFO - 'Município' link clicked!
-2024-12-29 19:49:30,493 - INFO - Waiting for dropdown...
-2024-12-29 19:49:30,636 - INFO - Dropdown option '80' selected!
-2024-12-29 19:49:30,637 - INFO - Waiting for table rows to load...
-2024-12-29 19:49:30,655 - INFO - Table rows loaded!
-2024-12-29 19:49:31,670 - INFO - Found 12 rows.
-2024-12-29 19:49:32,574 - INFO - Table data extracted.
-2024-12-29 19:49:32,630 - INFO - DataFrame created:
-2024-12-29 19:49:32,630 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012     146.881,35    207.900,00          354.781,35
-1        2013     293.762,65    476.100,00          769.862,65
-2        2014     891.128,29    787.560,00        1.678.688,29
-3        2015      43.246,40  1.134.360,00        1.177.606,40
-4        2016     124.851,12  1.141.860,00        1.266.711,12
-5        2017       8.182,66  1.237.560,00        1.245.742,66
-6        2018     369.796,39  1.771.810,00        2.141.606,39
-7        2019   2.059.812,81  2.037.360,00        4.097.172,81
-8        2020   2.482.648,24  2.037.360,00        4.520.008,24
-9        2021   2.484.387,84  2.037.360,00        4.521.747,84
-10       2022   2.073.440,75  2.037.360,00        4.110.800,75
-11       2023   4.353.745,12  2.069.712,00        6.423.457,12
-2024-12-29 19:49:32,748 - INFO - Data saved to evolucao_mac.json
-2024-12-29 20:10:31,232 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:10:31,232 - INFO - Waiting for 'Município' link...
-2024-12-29 20:10:31,384 - INFO - 'Município' link clicked!
-2024-12-29 20:10:40,531 - INFO - Waiting for table to load...
-2024-12-29 20:10:40,545 - INFO - Table loaded!
-2024-12-29 20:10:41,568 - INFO - Found 4 rows.
-2024-12-29 20:10:41,689 - INFO - Table data extracted.
-2024-12-29 20:10:41,690 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:10:41,690 - INFO - Adicionado 2024 para Incentivos: 2645088.00
-2024-12-29 20:10:41,690 - WARNING - Categoria 'Teto Financeiro MAC' não encontrada nos dados extraídos.
-2024-12-29 20:10:41,690 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:13:25,559 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:13:25,561 - INFO - Waiting for 'Município' link...
-2024-12-29 20:13:25,698 - INFO - 'Município' link clicked!
-2024-12-29 20:13:34,887 - INFO - Waiting for table to load...
-2024-12-29 20:13:34,901 - INFO - Table loaded!
-2024-12-29 20:13:35,922 - INFO - Found 4 rows.
-2024-12-29 20:13:36,059 - ERROR - Erro ao extrair dados da tabela: could not convert string to float: ''
-2024-12-29 20:16:59,706 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:16:59,706 - INFO - Waiting for 'Município' link...
-2024-12-29 20:16:59,845 - INFO - 'Município' link clicked!
-2024-12-29 20:17:09,311 - INFO - Waiting for table to load...
-2024-12-29 20:17:09,343 - INFO - Table loaded!
-2024-12-29 20:17:10,365 - INFO - Found 4 rows.
-2024-12-29 20:17:10,485 - ERROR - Erro ao extrair dados da tabela: could not convert string to float: ''
-2024-12-29 20:19:58,598 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:19:58,599 - INFO - Waiting for 'Município' link...
-2024-12-29 20:19:58,729 - INFO - 'Município' link clicked!
-2024-12-29 20:20:08,002 - INFO - Waiting for table to load...
-2024-12-29 20:20:08,015 - INFO - Table loaded!
-2024-12-29 20:20:09,038 - INFO - Found 4 rows.
-2024-12-29 20:20:09,169 - ERROR - Erro ao extrair dados da tabela: could not convert string to float: ''
-2024-12-29 20:21:10,256 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:21:10,257 - INFO - Waiting for 'Município' link...
-2024-12-29 20:21:10,395 - INFO - 'Município' link clicked!
-2024-12-29 20:21:19,570 - INFO - Waiting for table to load...
-2024-12-29 20:21:19,584 - INFO - Table loaded!
-2024-12-29 20:21:20,605 - INFO - Found 4 rows.
-2024-12-29 20:21:20,720 - INFO - Table data extracted.
-2024-12-29 20:21:20,720 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:21:20,720 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:21:20,720 - WARNING - Categoria 'Teto Financeiro MAC' não encontrada nos dados extraídos.
-2024-12-29 20:21:20,721 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:23:08,612 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:23:08,613 - INFO - Waiting for 'Município' link...
-2024-12-29 20:23:08,750 - INFO - 'Município' link clicked!
-2024-12-29 20:23:17,935 - INFO - Waiting for table to load...
-2024-12-29 20:23:17,948 - INFO - Table loaded!
-2024-12-29 20:23:18,972 - INFO - Found 4 rows.
-2024-12-29 20:23:19,093 - INFO - Table data extracted.
-2024-12-29 20:23:19,093 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:23:19,093 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:23:19,093 - WARNING - Categoria 'Teto Financeiro MAC' não encontrada nos dados extraídos.
-2024-12-29 20:23:19,093 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:26:38,393 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:26:38,393 - INFO - Waiting for 'Município' link...
-2024-12-29 20:26:38,523 - INFO - 'Município' link clicked!
-2024-12-29 20:26:47,949 - INFO - Waiting for table to load...
-2024-12-29 20:26:48,033 - INFO - Table loaded!
-2024-12-29 20:26:49,055 - INFO - Found 4 rows.
-2024-12-29 20:26:49,175 - INFO - Table data extracted.
-2024-12-29 20:26:49,175 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:26:49,175 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:26:49,175 - WARNING - Categoria 'Teto Financeiro MAC' não encontrada nos dados extraídos.
-2024-12-29 20:26:49,176 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:28:40,961 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:28:40,961 - INFO - Waiting for 'Município' link...
-2024-12-29 20:28:41,094 - INFO - 'Município' link clicked!
-2024-12-29 20:28:50,407 - INFO - Waiting for table to load...
-2024-12-29 20:28:50,419 - INFO - Table loaded!
-2024-12-29 20:28:51,444 - INFO - Found 4 rows.
-2024-12-29 20:28:51,564 - INFO - Table data extracted.
-2024-12-29 20:28:51,564 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:28:51,564 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:28:51,565 - WARNING - Categoria 'Teto Financeiro MAC' não encontrada nos dados extraídos.
-2024-12-29 20:28:51,565 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:32:22,052 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:32:22,052 - INFO - Waiting for 'Município' link...
-2024-12-29 20:32:22,198 - INFO - 'Município' link clicked!
-2024-12-29 20:32:31,522 - INFO - Waiting for table to load...
-2024-12-29 20:32:31,601 - INFO - Table loaded!
-2024-12-29 20:32:32,620 - INFO - Found 4 rows.
-2024-12-29 20:32:32,740 - INFO - Table data extracted.
-2024-12-29 20:32:32,740 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:32:32,740 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:32:32,741 - INFO - Adicionado 2024 para Teto Financeiro MAC: 12488986.44
-2024-12-29 20:32:32,741 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:37:28,686 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:37:28,688 - INFO - Waiting for 'Município' link...
-2024-12-29 20:37:28,825 - INFO - 'Município' link clicked!
-2024-12-29 20:37:38,067 - INFO - Waiting for dropdown...
-2024-12-29 20:37:38,137 - INFO - Dropdown option '80' selected!
-2024-12-29 20:37:38,138 - INFO - Waiting for table rows to load...
-2024-12-29 20:37:38,158 - INFO - Table rows loaded!
-2024-12-29 20:37:39,171 - INFO - Found 12 rows.
-2024-12-29 20:37:39,693 - INFO - Table data extracted.
-2024-12-29 20:37:39,693 - INFO - DataFrame created:
-2024-12-29 20:37:39,693 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012     146.881,35    207.900,00          354.781,35
-1        2013     293.762,65    476.100,00          769.862,65
-2        2014     891.128,29    787.560,00        1.678.688,29
-3        2015      43.246,40  1.134.360,00        1.177.606,40
-4        2016     124.851,12  1.141.860,00        1.266.711,12
-5        2017       8.182,66  1.237.560,00        1.245.742,66
-6        2018     369.796,39  1.771.810,00        2.141.606,39
-7        2019   2.059.812,81  2.037.360,00        4.097.172,81
-8        2020   2.482.648,24  2.037.360,00        4.520.008,24
-9        2021   2.484.387,84  2.037.360,00        4.521.747,84
-10       2022   2.073.440,75  2.037.360,00        4.110.800,75
-11       2023   4.353.745,12  2.069.712,00        6.423.457,12
-2024-12-29 20:37:39,710 - INFO - Data saved to evolucao_mac.json
-2024-12-29 20:37:44,396 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:37:44,396 - INFO - Waiting for 'Município' link...
-2024-12-29 20:37:44,531 - INFO - 'Município' link clicked!
-2024-12-29 20:37:53,877 - INFO - Waiting for table to load...
-2024-12-29 20:37:53,911 - INFO - Table loaded!
-2024-12-29 20:37:54,933 - INFO - Found 4 rows.
-2024-12-29 20:37:55,048 - INFO - Table data extracted.
-2024-12-29 20:37:55,049 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:37:55,049 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:37:55,049 - INFO - Adicionado 2024 para Teto Financeiro MAC: 12488986.44
-2024-12-29 20:37:55,049 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 20:49:04,454 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:49:04,455 - INFO - Waiting for 'Município' link...
-2024-12-29 20:49:04,593 - INFO - 'Município' link clicked!
-2024-12-29 20:49:13,805 - INFO - Waiting for dropdown...
-2024-12-29 20:49:13,875 - INFO - Dropdown option '80' selected!
-2024-12-29 20:49:13,875 - INFO - Waiting for table rows to load...
-2024-12-29 20:49:13,894 - INFO - Table rows loaded!
-2024-12-29 20:49:14,909 - INFO - Found 12 rows.
-2024-12-29 20:49:15,446 - INFO - Table data extracted.
-2024-12-29 20:49:15,448 - INFO - DataFrame created:
-2024-12-29 20:49:15,448 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2012     146.881,35    207.900,00          354.781,35
-1        2013     293.762,65    476.100,00          769.862,65
-2        2014     891.128,29    787.560,00        1.678.688,29
-3        2015      43.246,40  1.134.360,00        1.177.606,40
-4        2016     124.851,12  1.141.860,00        1.266.711,12
-5        2017       8.182,66  1.237.560,00        1.245.742,66
-6        2018     369.796,39  1.771.810,00        2.141.606,39
-7        2019   2.059.812,81  2.037.360,00        4.097.172,81
-8        2020   2.482.648,24  2.037.360,00        4.520.008,24
-9        2021   2.484.387,84  2.037.360,00        4.521.747,84
-10       2022   2.073.440,75  2.037.360,00        4.110.800,75
-11       2023   4.353.745,12  2.069.712,00        6.423.457,12
-2024-12-29 20:49:15,464 - INFO - Data saved to evolucao_mac.json
-2024-12-29 20:49:20,961 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 20:49:20,961 - INFO - Waiting for 'Município' link...
-2024-12-29 20:49:21,105 - INFO - 'Município' link clicked!
-2024-12-29 20:49:30,239 - INFO - Waiting for table to load...
-2024-12-29 20:49:30,253 - INFO - Table loaded!
-2024-12-29 20:49:31,275 - INFO - Found 4 rows.
-2024-12-29 20:49:31,393 - INFO - Table data extracted.
-2024-12-29 20:49:31,394 - INFO - Adicionado 2024 para Sem Incentivos: 9843898.44
-2024-12-29 20:49:31,394 - INFO - Adicionado 2024 para Incentivos: 2645088.0
-2024-12-29 20:49:31,394 - INFO - Adicionado 2024 para Teto Financeiro MAC: 12488986.44
-2024-12-29 20:49:31,394 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 21:42:55,288 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 21:42:55,288 - INFO - Waiting for 'Município' link...
-2024-12-29 21:42:55,466 - INFO - 'Município' link clicked!
-2024-12-29 21:43:04,691 - INFO - Waiting for dropdown...
-2024-12-29 21:43:04,760 - INFO - Dropdown option '80' selected!
-2024-12-29 21:43:04,760 - INFO - Waiting for table rows to load...
-2024-12-29 21:43:04,777 - INFO - Table rows loaded!
-2024-12-29 21:43:05,809 - INFO - Found 16 rows.
-2024-12-29 21:43:06,573 - INFO - Table data extracted.
-2024-12-29 21:43:06,574 - INFO - DataFrame created:
-2024-12-29 21:43:06,574 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2008   6.878.861,00    102.372,75        6.981.233,75
-1        2009   7.460.817,39    342.216,74        7.803.034,13
-2        2010   8.228.849,34    373.327,36        8.602.176,70
-3        2011   8.260.846,76    374.657,36        8.635.504,12
-4        2012   8.261.728,47    466.819,36        8.728.547,83
-5        2013   8.405.580,45    344.065,66        8.749.646,11
-6        2014   8.422.526,28    940.423,94        9.362.950,22
-7        2015   8.263.946,28  1.925.489,32       10.189.435,60
-8        2016   8.263.946,28  1.671.764,32        9.935.710,60
-9        2017   8.266.985,94  2.236.599,67       10.503.585,61
-10       2018   8.294.760,07  1.969.314,36       10.264.074,43
-11       2019   8.297.561,32  1.428.489,36        9.726.050,68
-12       2020   8.359.757,79  1.325.239,36        9.684.997,15
-13       2021   8.442.374,05  1.325.239,36        9.767.613,41
-14       2022   8.528.924,66  1.325.239,36        9.854.164,02
-15       2023   8.676.166,77  1.884.117,98       10.560.284,75
-2024-12-29 21:43:06,591 - INFO - Data saved to evolucao_mac.json
-2024-12-29 21:43:11,386 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 21:43:11,386 - INFO - Waiting for 'Município' link...
-2024-12-29 21:43:11,537 - INFO - 'Município' link clicked!
-2024-12-29 21:43:20,822 - INFO - Waiting for table to load...
-2024-12-29 21:43:20,836 - INFO - Table loaded!
-2024-12-29 21:43:21,861 - INFO - Found 4 rows.
-2024-12-29 21:43:21,990 - INFO - Table data extracted.
-2024-12-29 21:43:21,991 - INFO - Adicionado 2024 para Sem Incentivos: 14468418.18
-2024-12-29 21:43:21,991 - INFO - Adicionado 2024 para Incentivos: 3081115.96
-2024-12-29 21:43:21,991 - INFO - Adicionado 2024 para Teto Financeiro MAC: 17549534.14
-2024-12-29 21:43:21,991 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 21:53:49,824 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 21:53:49,826 - INFO - Waiting for 'Município' link...
-2024-12-29 21:53:49,965 - INFO - 'Município' link clicked!
-2024-12-29 21:53:59,119 - INFO - Waiting for dropdown...
-2024-12-29 21:53:59,186 - INFO - Dropdown option '80' selected!
-2024-12-29 21:53:59,186 - INFO - Waiting for table rows to load...
-2024-12-29 21:53:59,205 - INFO - Table rows loaded!
-2024-12-29 21:54:00,220 - INFO - Found 16 rows.
-2024-12-29 21:54:00,886 - INFO - Table data extracted.
-2024-12-29 21:54:00,887 - INFO - DataFrame created:
-2024-12-29 21:54:00,887 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
-0        2008   6.878.861,00    102.372,75        6.981.233,75
-1        2009   7.460.817,39    342.216,74        7.803.034,13
-2        2010   8.228.849,34    373.327,36        8.602.176,70
-3        2011   8.260.846,76    374.657,36        8.635.504,12
-4        2012   8.261.728,47    466.819,36        8.728.547,83
-5        2013   8.405.580,45    344.065,66        8.749.646,11
-6        2014   8.422.526,28    940.423,94        9.362.950,22
-7        2015   8.263.946,28  1.925.489,32       10.189.435,60
-8        2016   8.263.946,28  1.671.764,32        9.935.710,60
-9        2017   8.266.985,94  2.236.599,67       10.503.585,61
-10       2018   8.294.760,07  1.969.314,36       10.264.074,43
-11       2019   8.297.561,32  1.428.489,36        9.726.050,68
-12       2020   8.359.757,79  1.325.239,36        9.684.997,15
-13       2021   8.442.374,05  1.325.239,36        9.767.613,41
-14       2022   8.528.924,66  1.325.239,36        9.854.164,02
-15       2023   8.676.166,77  1.884.117,98       10.560.284,75
-2024-12-29 21:54:00,906 - INFO - Data saved to evolucao_mac.json
-2024-12-29 21:54:06,615 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 21:54:06,615 - INFO - Waiting for 'Município' link...
-2024-12-29 21:54:06,754 - INFO - 'Município' link clicked!
-2024-12-29 21:54:15,872 - INFO - Waiting for table to load...
-2024-12-29 21:54:15,922 - INFO - Table loaded!
-2024-12-29 21:54:16,945 - INFO - Found 4 rows.
-2024-12-29 21:54:17,069 - INFO - Table data extracted.
-2024-12-29 21:54:17,069 - INFO - Adicionado 2024 para Sem Incentivos: 14468418.18
-2024-12-29 21:54:17,069 - INFO - Adicionado 2024 para Incentivos: 3081115.96
-2024-12-29 21:54:17,069 - INFO - Adicionado 2024 para Teto Financeiro MAC: 17549534.14
-2024-12-29 21:54:17,070 - INFO - JSON atualizado e salvo com sucesso.
-2024-12-29 22:14:38,768 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 22:14:38,769 - INFO - Waiting for 'Município' link...
-2024-12-29 22:14:38,909 - INFO - 'Município' link clicked!
-2024-12-29 22:14:48,134 - INFO - Waiting for dropdown...
-2024-12-29 22:14:48,211 - INFO - Dropdown option '80' selected!
-2024-12-29 22:14:48,211 - INFO - Waiting for table rows to load...
-2024-12-29 22:14:48,236 - INFO - Table rows loaded!
-2024-12-29 22:14:49,275 - INFO - Found 14 rows.
-2024-12-29 22:14:49,961 - INFO - Table data extracted.
-2024-12-29 22:14:49,962 - INFO - DataFrame created:
-2024-12-29 22:14:49,962 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0        2010   1.261.568,54        0,00        1.261.568,54
-1        2011   2.164.473,85        0,00        2.164.473,85
-2        2012   2.164.473,85        0,00        2.164.473,85
-3        2013   2.164.473,84        0,00        2.164.473,84
-4        2014   2.164.473,84   41.806,32        2.206.280,16
-5        2015   2.164.473,84  223.125,00        2.387.598,84
-6        2016   2.164.473,84  164.100,00        2.328.573,84
-7        2017   2.164.473,84  218.550,00        2.383.023,84
-8        2018   2.164.473,85  167.400,00        2.331.873,85
-9        2019   2.164.473,85  144.375,00        2.308.848,85
-10       2020   2.164.473,85  157.500,00        2.321.973,85
-11       2021   2.164.473,85  157.500,00        2.321.973,85
-12       2022   2.164.473,85  327.330,00        2.491.803,85
-13       2023   2.164.473,85  524.116,50        2.688.590,35
-2024-12-29 22:14:49,979 - INFO - Data saved to evolucao_mac.json
-2024-12-29 22:14:55,451 - INFO - Baixando Evolução do Teto MAC...
-2024-12-29 22:14:55,451 - INFO - Waiting for 'Município' link...
-2024-12-29 22:14:55,601 - INFO - 'Município' link clicked!
-2024-12-29 22:15:04,924 - INFO - Waiting for table to load...
-2024-12-29 22:15:04,939 - INFO - Table loaded!
-2024-12-29 22:15:05,967 - INFO - Found 4 rows.
-2024-12-29 22:15:06,105 - INFO - Table data extracted.
-2024-12-29 22:15:06,105 - INFO - Adicionado 2024 para Sem Incentivos: 2164473.85
-2024-12-29 22:15:06,105 - INFO - Adicionado 2024 para Incentivos: 720678.0
-2024-12-29 22:15:06,106 - INFO - Adicionado 2024 para Teto Financeiro MAC: 2885151.85
-2024-12-29 22:15:06,106 - INFO - JSON atualizado e salvo com sucesso.
-2025-01-01 19:48:20,063 - INFO - Baixando Evolução do Teto MAC...
-2025-01-01 19:48:20,143 - INFO - Waiting for 'Município' link...
-2025-01-01 19:48:20,385 - INFO - 'Município' link clicked!
-2025-01-01 19:48:29,648 - INFO - Waiting for dropdown...
-2025-01-01 19:48:29,719 - INFO - Dropdown option '80' selected!
-2025-01-01 19:48:29,719 - INFO - Waiting for table rows to load...
-2025-01-01 19:48:29,750 - INFO - Table rows loaded!
-2025-01-01 19:48:30,796 - INFO - Found 9 rows.
-2025-01-01 19:48:31,220 - INFO - Table data extracted.
-2025-01-01 19:48:31,255 - INFO - DataFrame created:
-2025-01-01 19:48:31,255 - INFO -   Referência Sem Incentivos  Incentivos Teto Financeiro MAC
-0       2015           0,00  157.500,00          157.500,00
-1       2016           0,00  166.294,00          166.294,00
-2       2017           0,00  263.028,00          263.028,00
-3       2019           0,00  241.109,00          241.109,00
-4       2020           0,00  263.028,00          263.028,00
-5       2021           0,00  263.028,00          263.028,00
-6       2022           0,00  263.028,00          263.028,00
-7       2023           0,00  269.603,70          269.603,70
-8       2024           0,00  341.936,40          341.936,40
-2025-01-01 19:48:31,457 - INFO - Data saved to evolucao_mac.json
-2025-01-01 19:48:37,175 - INFO - Baixando Evolução do Teto MAC...
-2025-01-01 19:48:37,175 - INFO - Waiting for 'Município' link...
-2025-01-01 19:48:37,334 - INFO - 'Município' link clicked!
-2025-01-01 19:48:46,366 - INFO - Waiting for table to load...
-2025-01-01 19:48:46,378 - INFO - Table loaded!
-2025-01-01 19:48:47,410 - INFO - Found 4 rows.
-2025-01-01 19:48:47,533 - INFO - Table data extracted.
-2025-01-01 19:48:47,534 - INFO - Adicionado 2025 para Sem Incentivos: 0.0
-2025-01-01 19:48:47,534 - INFO - Adicionado 2025 para Incentivos: 341936.4
-2025-01-01 19:48:47,534 - INFO - Adicionado 2025 para Teto Financeiro MAC: 341936.4
-2025-01-01 19:48:47,534 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 19:57:56,168 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/5e0b6d40fe420996e8a494da1968b815
+2025-02-06 19:57:56,169 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff1ea972850>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e0b6d40fe420996e8a494da1968b815
+2025-02-06 19:57:56,170 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff1e9eb9550>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/5e0b6d40fe420996e8a494da1968b815
+2025-02-06 19:57:59,981 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 19:57:59,982 - INFO - Waiting for 'Município' link...
+2025-02-06 19:58:02,353 - INFO - 'Município' link clicked!
+2025-02-06 19:58:11,545 - INFO - Waiting for table to load...
+2025-02-06 19:58:11,556 - INFO - Table loaded!
+2025-02-06 19:58:12,577 - INFO - Found 4 rows.
+2025-02-06 19:58:12,697 - INFO - Table data extracted.
+2025-02-06 19:58:12,697 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 19:58:19,164 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 19:58:19,164 - INFO - Waiting for 'Município' link...
+2025-02-06 19:58:19,351 - INFO - 'Município' link clicked!
+2025-02-06 19:58:28,618 - INFO - Waiting for dropdown...
+2025-02-06 19:58:28,749 - INFO - Dropdown option '80' selected!
+2025-02-06 19:58:28,749 - INFO - Waiting for table rows to load...
+2025-02-06 19:58:28,784 - INFO - Table rows loaded!
+2025-02-06 19:58:29,804 - INFO - Found 15 rows.
+2025-02-06 19:58:30,436 - INFO - Table data extracted.
+2025-02-06 19:58:30,438 - INFO - DataFrame created:
+2025-02-06 19:58:30,438 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 19:58:30,457 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 19:58:30,458 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 19:58:30,460 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 19:58:30,460 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 19:58:30,462 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 19:58:30,462 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 19:58:35,445 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 19:58:35,446 - INFO - Waiting for 'Município' link...
+2025-02-06 19:58:35,678 - INFO - 'Município' link clicked!
+2025-02-06 19:58:44,887 - INFO - Waiting for table to load...
+2025-02-06 19:58:44,903 - INFO - Table loaded!
+2025-02-06 19:58:45,926 - INFO - Found 4 rows.
+2025-02-06 19:58:46,054 - INFO - Table data extracted.
+2025-02-06 19:58:46,054 - INFO - Adicionado 2025 para Sem Incentivos: 246571.29
+2025-02-06 19:58:46,055 - INFO - Adicionado 2025 para Incentivos: 2381936.4
+2025-02-06 19:58:46,055 - INFO - Adicionado 2025 para Teto Financeiro MAC: 2628507.69
+2025-02-06 19:58:46,055 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 20:28:35,366 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:28:35,367 - INFO - Waiting for 'Município' link...
+2025-02-06 20:28:35,511 - INFO - 'Município' link clicked!
+2025-02-06 20:28:44,906 - INFO - Waiting for dropdown...
+2025-02-06 20:28:45,014 - INFO - Dropdown option '80' selected!
+2025-02-06 20:28:45,015 - INFO - Waiting for table rows to load...
+2025-02-06 20:28:45,037 - INFO - Table rows loaded!
+2025-02-06 20:28:46,051 - INFO - Found 15 rows.
+2025-02-06 20:28:46,603 - INFO - Table data extracted.
+2025-02-06 20:28:46,604 - INFO - DataFrame created:
+2025-02-06 20:28:46,604 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 20:28:46,619 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:28:46,619 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:28:46,620 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:28:46,621 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:28:46,622 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:28:46,622 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:28:52,234 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:28:52,234 - INFO - Waiting for 'Município' link...
+2025-02-06 20:28:52,366 - INFO - 'Município' link clicked!
+2025-02-06 20:29:01,805 - INFO - Waiting for table to load...
+2025-02-06 20:29:01,842 - INFO - Table loaded!
+2025-02-06 20:29:02,865 - INFO - Found 4 rows.
+2025-02-06 20:29:02,977 - INFO - Table data extracted.
+2025-02-06 20:29:02,977 - INFO - Adicionado 2025 para Sem Incentivos: 246571.29
+2025-02-06 20:29:02,977 - INFO - Adicionado 2025 para Incentivos: 2381936.4
+2025-02-06 20:29:02,977 - INFO - Adicionado 2025 para Teto Financeiro MAC: 2628507.69
+2025-02-06 20:29:02,977 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 20:38:33,745 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:38:33,746 - INFO - Waiting for 'Município' link...
+2025-02-06 20:38:33,896 - INFO - 'Município' link clicked!
+2025-02-06 20:38:43,044 - INFO - Waiting for dropdown...
+2025-02-06 20:38:43,116 - INFO - Dropdown option '80' selected!
+2025-02-06 20:38:43,116 - INFO - Waiting for table rows to load...
+2025-02-06 20:38:43,135 - INFO - Table rows loaded!
+2025-02-06 20:38:44,148 - INFO - Found 15 rows.
+2025-02-06 20:38:44,730 - INFO - Table data extracted.
+2025-02-06 20:38:44,731 - INFO - DataFrame created:
+2025-02-06 20:38:44,731 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 20:38:44,746 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:38:44,746 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:38:44,748 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:38:44,749 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:38:44,750 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:38:44,750 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:38:50,726 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:38:50,727 - INFO - Waiting for 'Município' link...
+2025-02-06 20:38:50,862 - INFO - 'Município' link clicked!
+2025-02-06 20:39:00,083 - INFO - Waiting for table to load...
+2025-02-06 20:39:00,114 - INFO - Table loaded!
+2025-02-06 20:39:01,137 - INFO - Found 4 rows.
+2025-02-06 20:39:01,259 - INFO - Table data extracted.
+2025-02-06 20:39:01,259 - INFO - Adicionado 2025 para Sem Incentivos: 246571.29
+2025-02-06 20:39:01,259 - INFO - Adicionado 2025 para Incentivos: 2381936.4
+2025-02-06 20:39:01,259 - INFO - Adicionado 2025 para Teto Financeiro MAC: 2628507.69
+2025-02-06 20:39:01,260 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 20:44:21,056 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:44:21,056 - INFO - Waiting for 'Município' link...
+2025-02-06 20:44:21,236 - INFO - 'Município' link clicked!
+2025-02-06 20:44:30,503 - INFO - Waiting for dropdown...
+2025-02-06 20:44:30,603 - INFO - Dropdown option '80' selected!
+2025-02-06 20:44:30,603 - INFO - Waiting for table rows to load...
+2025-02-06 20:44:30,639 - INFO - Table rows loaded!
+2025-02-06 20:44:51,380 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:44:51,380 - INFO - Waiting for 'Município' link...
+2025-02-06 20:44:51,507 - INFO - 'Município' link clicked!
+2025-02-06 20:45:00,707 - INFO - Waiting for dropdown...
+2025-02-06 20:45:00,792 - INFO - Dropdown option '80' selected!
+2025-02-06 20:45:00,792 - INFO - Waiting for table rows to load...
+2025-02-06 20:45:00,809 - INFO - Table rows loaded!
+2025-02-06 20:45:01,824 - INFO - Found 15 rows.
+2025-02-06 20:45:02,395 - INFO - Table data extracted.
+2025-02-06 20:45:02,396 - INFO - DataFrame created:
+2025-02-06 20:45:02,396 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 20:45:02,410 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:45:02,449 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:45:02,450 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:45:02,450 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:45:02,451 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:45:02,523 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:45:07,814 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:45:07,815 - INFO - Waiting for 'Município' link...
+2025-02-06 20:45:07,939 - INFO - 'Município' link clicked!
+2025-02-06 20:45:17,195 - INFO - Waiting for table to load...
+2025-02-06 20:45:17,214 - INFO - Table loaded!
+2025-02-06 20:45:18,237 - INFO - Found 4 rows.
+2025-02-06 20:45:18,345 - INFO - Table data extracted.
+2025-02-06 20:45:18,345 - INFO - Adicionado 2025 para Sem Incentivos: 246571.29
+2025-02-06 20:45:18,345 - INFO - Adicionado 2025 para Incentivos: 2381936.4
+2025-02-06 20:45:18,346 - INFO - Adicionado 2025 para Teto Financeiro MAC: 2628507.69
+2025-02-06 20:45:18,346 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 20:51:40,509 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:51:40,510 - INFO - Waiting for 'Município' link...
+2025-02-06 20:51:40,639 - INFO - 'Município' link clicked!
+2025-02-06 20:51:50,037 - INFO - Waiting for dropdown...
+2025-02-06 20:51:50,151 - INFO - Dropdown option '80' selected!
+2025-02-06 20:51:50,152 - INFO - Waiting for table rows to load...
+2025-02-06 20:51:50,172 - INFO - Table rows loaded!
+2025-02-06 20:51:51,185 - INFO - Found 15 rows.
+2025-02-06 20:51:51,739 - INFO - Table data extracted.
+2025-02-06 20:51:51,741 - INFO - DataFrame created:
+2025-02-06 20:51:51,741 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 20:51:51,753 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:51:51,754 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:51:51,755 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:51:51,770 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:51:51,771 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 20:51:51,792 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 20:51:57,300 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 20:51:57,301 - INFO - Waiting for 'Município' link...
+2025-02-06 20:51:57,440 - INFO - 'Município' link clicked!
+2025-02-06 20:52:06,643 - INFO - Waiting for table to load...
+2025-02-06 20:52:37,012 - ERROR - An error occurred: Message: 
+Stacktrace:
+#0 0x559f8d83653a <unknown>
+#1 0x559f8d331f00 <unknown>
+#2 0x559f8d381c0c <unknown>
+#3 0x559f8d381e31 <unknown>
+#4 0x559f8d3c7bd4 <unknown>
+#5 0x559f8d3a65cd <unknown>
+#6 0x559f8d3c4f84 <unknown>
+#7 0x559f8d3a6343 <unknown>
+#8 0x559f8d37378a <unknown>
+#9 0x559f8d3749de <unknown>
+#10 0x559f8d8002cb <unknown>
+#11 0x559f8d804242 <unknown>
+#12 0x559f8d7ed7ac <unknown>
+#13 0x559f8d804df7 <unknown>
+#14 0x559f8d7d1b2f <unknown>
+#15 0x559f8d8251a8 <unknown>
+#16 0x559f8d825370 <unknown>
+#17 0x559f8d8353b6 <unknown>
+#18 0x7f5b685191c4 <unknown>
+
+2025-02-06 21:01:01,297 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:01:01,298 - INFO - Waiting for 'Município' link...
+2025-02-06 21:01:01,432 - INFO - 'Município' link clicked!
+2025-02-06 21:01:10,985 - INFO - Waiting for dropdown...
+2025-02-06 21:01:11,189 - INFO - Dropdown option '80' selected!
+2025-02-06 21:01:11,189 - INFO - Waiting for table rows to load...
+2025-02-06 21:01:11,205 - INFO - Table rows loaded!
+2025-02-06 21:01:12,222 - INFO - Found 15 rows.
+2025-02-06 21:01:12,797 - INFO - Table data extracted.
+2025-02-06 21:01:12,798 - INFO - DataFrame created:
+2025-02-06 21:01:12,798 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2010     103.370,28     50.000,00          153.370,28
+1        2011     205.037,19    150.000,00          355.037,19
+2        2012     209.902,05    185.000,00          394.902,05
+3        2013     209.902,08    230.088,00          439.990,08
+4        2014     209.902,08    323.028,00          532.930,08
+5        2015     214.116,87    323.028,00          537.144,87
+6        2016     219.660,42    323.028,00          542.688,42
+7        2017     267.666,88    323.028,00          590.694,88
+8        2018     294.501,29    268.028,00          562.529,29
+9        2019     531.017,37    241.109,00          772.126,37
+10       2020     637.597,60    263.028,00          900.625,60
+11       2021     639.586,86  1.363.028,00        2.002.614,86
+12       2022     640.320,57  2.233.028,00        2.873.348,57
+13       2023     639.606,05  2.309.603,70        2.949.209,75
+14       2024     539.982,54  2.289.072,00        2.829.054,54
+2025-02-06 21:01:12,812 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:01:12,813 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:01:12,814 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:01:12,815 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:01:12,816 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:01:12,816 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:01:17,731 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:01:17,731 - INFO - Waiting for 'Município' link...
+2025-02-06 21:01:17,895 - INFO - 'Município' link clicked!
+2025-02-06 21:01:27,292 - INFO - Waiting for table to load...
+2025-02-06 21:01:27,306 - INFO - Table loaded!
+2025-02-06 21:01:28,331 - INFO - Found 4 rows.
+2025-02-06 21:01:28,447 - INFO - Table data extracted.
+2025-02-06 21:01:28,447 - INFO - Adicionado 2025 para Sem Incentivos: 246571.29
+2025-02-06 21:01:28,447 - INFO - Adicionado 2025 para Incentivos: 2381936.4
+2025-02-06 21:01:28,447 - INFO - Adicionado 2025 para Teto Financeiro MAC: 2628507.69
+2025-02-06 21:01:28,448 - INFO - JSON atualizado e salvo com sucesso.
+2025-02-06 21:35:03,656 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:35:03,656 - INFO - Waiting for 'Município' link...
+2025-02-06 21:35:03,820 - INFO - 'Município' link clicked!
+2025-02-06 21:35:13,151 - INFO - Waiting for dropdown...
+2025-02-06 21:35:13,315 - INFO - Dropdown option '80' selected!
+2025-02-06 21:35:13,315 - INFO - Waiting for table rows to load...
+2025-02-06 21:35:13,349 - INFO - Table rows loaded!
+2025-02-06 21:35:14,385 - INFO - Found 14 rows.
+2025-02-06 21:35:14,959 - INFO - Table data extracted.
+2025-02-06 21:35:14,960 - INFO - DataFrame created:
+2025-02-06 21:35:14,960 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
+0        2011      28.072,74        0,00           28.072,74
+1        2012     215.267,02        0,00          215.267,02
+2        2013     219.663,96        0,00          219.663,96
+3        2014     229.656,16    4.287,96          233.944,12
+4        2015     353.336,57        0,00          353.336,57
+5        2016     393.897,24        0,00          393.897,24
+6        2017     424.424,04        0,00          424.424,04
+7        2018     456.310,11        0,00          456.310,11
+8        2019     655.700,40        0,00          655.700,40
+9        2020     771.705,80        0,00          771.705,80
+10       2021     767.523,96        0,00          767.523,96
+11       2022     768.767,08        0,00          768.767,08
+12       2023     769.048,68        0,00          769.048,68
+13       2024     917.214,39  431.736,00        1.348.950,39
+2025-02-06 21:35:14,974 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:14,975 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:14,976 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:14,976 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:14,977 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:14,978 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:20,137 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:35:20,168 - INFO - Waiting for 'Município' link...
+2025-02-06 21:35:20,396 - INFO - 'Município' link clicked!
+2025-02-06 21:35:42,935 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:35:42,935 - INFO - Waiting for 'Município' link...
+2025-02-06 21:35:43,068 - INFO - 'Município' link clicked!
+2025-02-06 21:35:52,364 - INFO - Waiting for dropdown...
+2025-02-06 21:35:52,523 - INFO - Dropdown option '80' selected!
+2025-02-06 21:35:52,524 - INFO - Waiting for table rows to load...
+2025-02-06 21:35:52,596 - INFO - Table rows loaded!
+2025-02-06 21:35:53,611 - INFO - Found 14 rows.
+2025-02-06 21:35:54,142 - INFO - Table data extracted.
+2025-02-06 21:35:54,143 - INFO - DataFrame created:
+2025-02-06 21:35:54,143 - INFO -    Referência Sem Incentivos  Incentivos Teto Financeiro MAC
+0        2011      28.072,74        0,00           28.072,74
+1        2012     215.267,02        0,00          215.267,02
+2        2013     219.663,96        0,00          219.663,96
+3        2014     229.656,16    4.287,96          233.944,12
+4        2015     353.336,57        0,00          353.336,57
+5        2016     393.897,24        0,00          393.897,24
+6        2017     424.424,04        0,00          424.424,04
+7        2018     456.310,11        0,00          456.310,11
+8        2019     655.700,40        0,00          655.700,40
+9        2020     771.705,80        0,00          771.705,80
+10       2021     767.523,96        0,00          767.523,96
+11       2022     768.767,08        0,00          768.767,08
+12       2023     769.048,68        0,00          769.048,68
+13       2024     917.214,39  431.736,00        1.348.950,39
+2025-02-06 21:35:54,159 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:54,159 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:54,160 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:54,161 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:54,162 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-02-06 21:35:54,162 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-02-06 21:35:59,609 - INFO - Baixando Evolução do Teto MAC...
+2025-02-06 21:35:59,609 - INFO - Waiting for 'Município' link...
+2025-02-06 21:35:59,747 - INFO - 'Município' link clicked!
+2025-02-06 21:36:08,950 - INFO - Waiting for table to load...
+2025-02-06 21:36:08,992 - INFO - Table loaded!
+2025-02-06 21:36:10,021 - INFO - Found 4 rows.
+2025-02-06 21:36:10,135 - INFO - Table data extracted.
+2025-02-06 21:36:10,135 - INFO - Adicionado 2025 para Sem Incentivos: 1360874.25
+2025-02-06 21:36:10,135 - INFO - Adicionado 2025 para Incentivos: 431736.0
+2025-02-06 21:36:10,135 - INFO - Adicionado 2025 para Teto Financeiro MAC: 1792610.25
+2025-02-06 21:36:10,136 - INFO - JSON atualizado e salvo com sucesso.
+2025-04-10 22:51:33,470 - INFO - Baixando Evolução do Teto MAC...
+2025-04-10 22:51:33,537 - INFO - Waiting for 'Município' link...
+2025-04-10 22:51:33,734 - INFO - 'Município' link clicked!
+2025-04-10 22:51:43,002 - INFO - Waiting for dropdown...
+2025-04-10 22:51:43,082 - INFO - Dropdown option '80' selected!
+2025-04-10 22:51:43,082 - INFO - Waiting for table rows to load...
+2025-04-10 22:51:43,135 - INFO - Table rows loaded!
+2025-04-10 22:51:44,151 - INFO - Found 17 rows.
+2025-04-10 22:51:44,869 - INFO - Table data extracted.
+2025-04-10 22:51:44,907 - INFO - DataFrame created:
+2025-04-10 22:51:44,907 - INFO -    Referência Sem Incentivos    Incentivos Teto Financeiro MAC
+0        2008   5.973.886,06     11.869,11        5.985.755,17
+1        2009   6.306.950,19    150.342,09        6.457.292,28
+2        2010   6.896.481,47    189.905,79        7.086.387,26
+3        2011   7.021.031,94    189.905,79        7.210.937,73
+4        2012   7.434.599,90    339.660,00        7.774.259,90
+5        2013   7.549.123,44    347.957,12        7.897.080,56
+6        2014   7.570.972,80    959.160,00        8.530.132,80
+7        2015   7.013.514,48  2.777.215,72        9.790.730,20
+8        2016   7.013.514,48  2.322.809,52        9.336.324,00
+9        2017   7.013.514,47  2.967.809,53        9.981.324,00
+10       2018   7.064.210,66  3.530.309,55       10.594.520,21
+11       2019   7.068.819,41  3.452.669,55       10.521.488,96
+12       2020   7.068.819,41  3.522.809,55       10.591.628,96
+13       2021   7.068.819,41  3.522.809,55       10.591.628,96
+14       2022   7.102.755,75  3.522.809,55       10.625.565,30
+15       2023   7.170.628,42  3.866.870,55       11.037.498,97
+16       2024   7.170.628,42  3.235.989,55       10.406.617,97
+2025-04-10 22:51:44,993 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-04-10 22:51:44,994 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-04-10 22:51:44,996 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-04-10 22:51:45,100 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-04-10 22:51:45,101 - INFO - Dados carregados do arquivo evolucao_mac.json.
+2025-04-10 22:51:45,139 - INFO - Dados salvos no arquivo evolucao_mac.json.
+2025-04-10 22:51:49,341 - INFO - Baixando Evolução do Teto MAC...
+2025-04-10 22:51:49,341 - INFO - Waiting for 'Município' link...
+2025-04-10 22:51:49,484 - INFO - 'Município' link clicked!
+2025-04-10 22:51:58,825 - INFO - Waiting for table to load...
+2025-04-10 22:51:58,866 - INFO - Table loaded!
+2025-04-10 22:51:59,887 - INFO - Found 4 rows.
+2025-04-10 22:52:00,013 - INFO - Table data extracted.
+2025-04-10 22:52:00,013 - INFO - Adicionado 2025 para Sem Incentivos: 7170628.42
+2025-04-10 22:52:00,014 - INFO - Adicionado 2025 para Incentivos: 3252155.55
+2025-04-10 22:52:00,014 - INFO - Adicionado 2025 para Teto Financeiro MAC: 10422783.97
+2025-04-10 22:52:00,014 - INFO - JSON atualizado e salvo com sucesso.

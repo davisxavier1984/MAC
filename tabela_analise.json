@@ -1,12 +1,30 @@
 [
     {
-        "Portaria": "GM 06267/2024",
-        "Data": "27/12/2024",
+        "Portaria": "GM 03949/2024",
+        "Data": "28/06/2024",
         "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "11ª/2024",
-        "Valor": "84192.00"
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "1ª/2024",
+        "Valor": "180000.00"
+    },
+    {
+        "Portaria": "GM 03949/2024",
+        "Data": "28/06/2024",
+        "Tipo": "Recurso Mantido",
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "1ª/2024",
+        "Valor": "600000.00"
+    },
+    {
+        "Portaria": "GM 02619/2023",
+        "Data": "27/12/2023",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "12ª/2023",
+        "Valor": "93600.00"
     },
     {
         "Portaria": "GM 01631/2023",
@@ -15,7 +33,7 @@
         "Incentivo": "Incentivo SAMU",
         "Área": "SAMU",
         "Competência": "8ª/2023",
-        "Valor": "204750.00"
+        "Valor": "805350.00"
     },
     {
         "Portaria": "GM 01261/2023",
@@ -27,13 +45,76 @@
         "Valor": "92076.00"
     },
     {
-        "Portaria": "GM 01366/2022",
-        "Data": "08/06/2022",
+        "Portaria": "GM 01388/2022",
+        "Data": "10/06/2022",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "7ª/2022",
+        "Valor": "101809.01"
+    },
+    {
+        "Portaria": "GM 00015/2018",
+        "Data": "05/01/2018",
+        "Tipo": "Acréscimo",
+        "Incentivo": "ALTERAÇÃO FORMA FINANCIAMENTO",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "2ª/2018",
+        "Valor": "55305.00"
+    },
+    {
+        "Portaria": "GM 02200/2014",
+        "Data": "06/10/2014",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo HOSPITAIS FILANTRÓPICOS",
+        "Área": "Outros Incentivos",
+        "Competência": "11ª/2014",
+        "Valor": "700813.44"
+    },
+    {
+        "Portaria": "GM 02602/2012",
+        "Data": "19/11/2012",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "1ª/2013",
+        "Valor": "2000.00"
+    },
+    {
+        "Portaria": "GM 01416/2012",
+        "Data": "09/07/2012",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo HOSPITAIS FILANTRÓPICOS",
+        "Área": "Outros Incentivos",
+        "Competência": "2ª/2012",
+        "Valor": "210847.43"
+    },
+    {
+        "Portaria": "GM 03099/2011",
+        "Data": "26/12/2011",
         "Tipo": "Acréscimo",
         "Incentivo": "Incentivo CAPS I, II, III, i e ad",
         "Área": "Saúde Mental-RAPS",
-        "Competência": "7ª/2022",
-        "Valor": "339660.00"
+        "Competência": "1ª/2012",
+        "Valor": "149754.21"
+    },
+    {
+        "Portaria": "GM 02506/2011",
+        "Data": "27/10/2011",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo HOSPITAIS FILANTRÓPICOS",
+        "Área": "Outros Incentivos",
+        "Competência": "8ª/2011",
+        "Valor": "229808.68"
+    },
+    {
+        "Portaria": "SAS 00511/2011",
+        "Data": "06/09/2011",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "10ª/2011",
+        "Valor": "114981.45"
     },
     {
         "Portaria": "GM 04120/2010",
@@ -42,16 +123,106 @@
         "Incentivo": "TABELA DE PROCEDIMENTOS",
         "Área": "Média e Alta Complexidade",
         "Competência": "1ª/2011",
-        "Valor": "1784.93"
+        "Valor": "51.49"
     },
     {
-        "Portaria": "SAS 00258/2010",
-        "Data": "01/06/2010",
+        "Portaria": "GM 01946/2009",
+        "Data": "28/08/2009",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "10ª/2009",
+        "Valor": "131.47"
+    },
+    {
+        "Portaria": "GM 01195/2009",
+        "Data": "05/06/2009",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
+        "Área": "Saúde Mental-RAPS",
+        "Competência": "7ª/2009",
+        "Valor": "47476.44"
+    },
+    {
+        "Portaria": "SAS 00056/2009",
+        "Data": "04/03/2009",
         "Tipo": "Remanejamento_Intra",
         "Incentivo": "DECISÃO CIB",
         "Área": "Média e Alta Complexidade",
-        "Competência": "6ª/2010",
-        "Valor": "2162688.92"
+        "Competência": "3ª/2009",
+        "Valor": "88355.32"
+    },
+    {
+        "Portaria": "GM 03194/2008",
+        "Data": "31/12/2008",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "1ª/2009",
+        "Valor": "223965.75"
+    },
+    {
+        "Portaria": "GM 02867/2008",
+        "Data": "28/11/2008",
+        "Tipo": "Acréscimo",
+        "Incentivo": "ALTERAÇÃO FORMA FINANCIAMENTO",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "12ª/2008",
+        "Valor": "29659.68"
+    },
+    {
+        "Portaria": "GM 02867/2008",
+        "Data": "28/11/2008",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo SAUDE MENTAL",
+        "Área": "Saúde Mental-RAPS",
+        "Competência": "12ª/2008",
+        "Valor": "142429.35"
+    },
+    {
+        "Portaria": "SAS 00300/2008",
+        "Data": "28/05/2008",
+        "Tipo": "Remanejamento_Intra",
+        "Incentivo": "DECISÃO CIB",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "6ª/2008",
+        "Valor": "190544.35"
+    },
+    {
+        "Portaria": "SAS 00149/2008",
+        "Data": "14/03/2008",
+        "Tipo": "Remanejamento_Intra",
+        "Incentivo": "DECISÃO CIB",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "4ª/2008",
+        "Valor": "-160544.35"
+    },
+    {
+        "Portaria": "SAS 00720/2007",
+        "Data": "31/12/2007",
+        "Tipo": "Acréscimo",
+        "Incentivo": "AMPLIAÇÃO - TETO MAC",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "10ª/2007",
+        "Valor": "418678.87"
+    },
+    {
+        "Portaria": "GM 02640/2007",
+        "Data": "17/10/2007",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "10ª/2007",
+        "Valor": "539809.25"
+    },
+    {
+        "Portaria": "SAS 00551/2007",
+        "Data": "15/10/2007",
+        "Tipo": "Remanejamento_Intra",
+        "Incentivo": "DECISÃO CIB",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "10ª/2007",
+        "Valor": "2067567.84"
     },
     {
         "Portaria": "",
@@ -60,6 +231,6 @@
         "Incentivo": "Limite Financeiro MAC até Jan/2003",
         "Área": "Média e Alta Complexidade",
         "Competência": "1ª/2003",
-        "Valor": "0.00"
+        "Valor": "3498313.29"
     }
 ]

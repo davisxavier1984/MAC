@@ -1,507 +1,153 @@
-2024-12-28 12:11:53,283 - INFO - Baixando análise do Teto MAC de 261180...
-2024-12-28 12:11:57,097 - INFO - Acessando SISMAC...
-2024-12-28 12:11:57,098 - INFO - Baixando Portarias de 261180...
-2024-12-28 12:12:02,814 - INFO - Município 261180 selecionado.
-2024-12-28 12:12:03,628 - INFO - 7 linhas encontradas na tabela.
-2024-12-28 12:12:03,911 - INFO - Opção '100' selecionada no dropdown.
-2024-12-28 12:12:03,911 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-28 12:12:03,930 - INFO - Linhas da tabela carregadas!
-2024-12-28 12:12:08,939 - INFO - 7 linhas encontradas.
-2024-12-28 12:12:09,396 - INFO - Dados da tabela extraídos.
-2024-12-28 12:12:09,397 - INFO - DataFrame criado:
-2024-12-28 12:12:09,397 - INFO -          Portaria        Data                 Tipo                           Incentivo                       Área Competência         Valor
-0   GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     84.192,00
-1   GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023    204.750,00
-2   GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     92.076,00
-3   GM 01366/2022  08/06/2022            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     7ª/2022    339.660,00
-4   GM 04120/2010  24/12/2010            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011      1.784,93
-5  SAS 00258/2010  01/06/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2010  2.162.688,92
-6                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003          0,00
-2024-12-28 12:12:09,414 - INFO - Dados salvos em tabela_analise.json
-2024-12-28 18:50:24,985 - INFO - Baixando análise do Teto MAC de 320240...
-2024-12-28 18:50:29,515 - INFO - Acessando SISMAC...
-2024-12-28 18:50:29,516 - INFO - Baixando Portarias de 320240...
-2024-12-28 18:50:35,583 - INFO - Município 320240 selecionado.
-2024-12-28 18:51:05,782 - ERROR - Um erro ocorreu: Message: 
+2025-02-06 20:29:36,448 - INFO - Baixando análise do Teto MAC de 420245...
+2025-02-06 20:29:41,434 - INFO - Acessando SISMAC...
+2025-02-06 20:29:41,434 - INFO - Baixando Portarias de 420245...
+2025-02-06 20:29:48,221 - INFO - Município 420245 selecionado.
+2025-02-06 20:30:18,390 - ERROR - Um erro ocorreu: Message: 
 
-2024-12-28 20:16:37,297 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-28 20:35:58,750 - INFO - Baixando análise do Teto MAC de 291320...
-2024-12-28 20:36:03,219 - INFO - Acessando SISMAC...
-2024-12-28 20:36:03,219 - INFO - Baixando Portarias de 291320...
-2024-12-28 20:46:48,574 - INFO - Baixando análise do Teto MAC de 120001...
-2024-12-28 20:46:50,382 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))': /session/3cf944420c637a865951547db5306b6d
-2024-12-28 20:46:50,383 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbbc652fd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3cf944420c637a865951547db5306b6d
-2024-12-28 20:46:50,384 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ffbbc653cd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3cf944420c637a865951547db5306b6d
-2024-12-28 20:48:29,574 - INFO - Baixando análise do Teto MAC de 291320...
-2024-12-28 20:48:33,958 - INFO - Acessando SISMAC...
-2024-12-28 20:48:33,958 - INFO - Baixando Portarias de 291320...
-2024-12-28 20:48:39,890 - INFO - Município 291320 selecionado.
-2024-12-28 20:48:40,700 - INFO - 10 linhas encontradas na tabela.
-2024-12-28 20:48:41,200 - INFO - Opção '100' selecionada no dropdown.
-2024-12-28 20:48:41,201 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-28 20:48:41,226 - INFO - Linhas da tabela carregadas!
-2024-12-28 20:48:46,238 - INFO - 21 linhas encontradas.
-2024-12-28 20:48:48,335 - INFO - Dados da tabela extraídos.
-2024-12-28 20:48:48,336 - INFO - DataFrame criado:
-2024-12-28 20:48:48,337 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024      84.192,00
-1    GM 03949/2024  28/06/2024            Acréscimo    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024     144.000,00
-2    GM 03949/2024  28/06/2024      Recurso Mantido    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024     480.000,00
-3    GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023     805.350,00
-4    GM 01631/2023  24/10/2023            Acréscimo       Incentivo SAMU - Qualificação                       SAMU     8ª/2023     288.834,00
-5    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023      92.076,00
-6    GM 01388/2022  10/06/2022            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     7ª/2022      62.339,95
-7    GM 03203/2021  19/11/2021            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2021         331,29
-8   SAS 00406/2019  03/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.964.845,23
-9    GM 00015/2018  05/01/2018            Acréscimo       ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade     2ª/2018      44.595,00
-10   GM 03908/2017  28/12/2017           Decréscimo                AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade     6ª/2016      -1.369,98
-11   GM 03687/2017  26/12/2017            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2018          19,52
-12   GM 01063/2016  27/05/2016            Acréscimo                AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade     6ª/2016       1.369,98
-13  SAS 00101/2015  29/01/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2015     -34.620,96
-14  SAS 00534/2013  17/05/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2013       4.170,00
-15  SAS 01200/2012  25/10/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2012     239.926,32
-16  SAS 01012/2012  21/09/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2012    -239.926,32
-17  SAS 00636/2012  10/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2012     327.181,51
-18  SAS 00557/2012  15/06/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012  -2.290.270,57
-19  SAS 00280/2012  04/04/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2012   3.632.206,11
-20                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-28 20:48:48,393 - INFO - Dados salvos em tabela_analise.json
-2024-12-28 21:07:14,655 - INFO - Baixando análise do Teto MAC de 120001...
-2024-12-28 21:07:19,033 - INFO - Acessando SISMAC...
-2024-12-28 21:07:19,033 - INFO - Baixando Portarias de 120001...
-2024-12-28 21:11:55,742 - INFO - Baixando análise do Teto MAC de 291320...
-2024-12-28 21:12:00,785 - INFO - Acessando SISMAC...
-2024-12-28 21:12:00,785 - INFO - Baixando Portarias de 291320...
-2024-12-28 21:12:06,584 - INFO - Município 291320 selecionado.
-2024-12-28 21:12:36,765 - ERROR - Um erro ocorreu: Message: 
+2025-02-06 20:39:32,751 - INFO - Baixando análise do Teto MAC de 420245...
+2025-02-06 20:39:37,737 - INFO - Acessando SISMAC...
+2025-02-06 20:39:37,737 - INFO - Baixando Portarias de 420245...
+2025-02-06 20:39:43,600 - INFO - Município 420245 selecionado.
+2025-02-06 20:39:44,752 - INFO - 10 linhas encontradas na tabela.
+2025-02-06 20:39:44,848 - INFO - Opção '100' selecionada no dropdown.
+2025-02-06 20:39:44,848 - INFO - Aguardando carregamento das linhas da tabela...
+2025-02-06 20:39:44,867 - INFO - Linhas da tabela carregadas!
+2025-02-06 20:39:49,897 - INFO - 32 linhas encontradas.
+2025-02-06 20:39:52,047 - INFO - Dados da tabela extraídos.
+2025-02-06 20:39:52,048 - INFO - DataFrame criado:
+2025-02-06 20:39:52,048 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência         Valor
+0    GM 05743/2024  06/12/2024            Renovação        Incentivo UPA - Qualificação                        UPA    12ª/2024    840.000,00
+1   REM 04210/2024  13/09/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2024   -391.215,00
+2    GM 03406/2024  26/03/2024            Renovação       Incentivo SAMU - Qualificação                       SAMU     3ª/2024    137.186,40
+3    GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023    204.750,00
+4   REM 04210/2023  15/09/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2023     -1.562,88
+5   REM 04209/2023  10/08/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2023       -971,40
+6   REM 04207/2021  14/06/2021  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2021      1.302,72
+7   REM 04206/2021  14/05/2021  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2021        197,64
+8    GM 03524/2020  18/12/2020            Acréscimo                       Incentivo UPA                        UPA     1ª/2021  1.200.000,00
+9   REM 04211/2020  15/10/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2020    -49.585,38
+10  REM 04210/2020  18/09/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2020     56.725,02
+11  SAS 01435/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020        -12,00
+12  SAS 01215/2019  22/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019         10,74
+13  SAS 01141/2019  07/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2019    -66.448,00
+14  SAS 00614/2019  24/05/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2019    361.205,40
+15  SAS 01646/2018  25/10/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2018     43.664,53
+16  SAS 01046/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018        498,48
+17  SAS 00726/2018  01/06/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2018     13.788,60
+18  SAS 01807/2017  07/12/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2017     -4.927,08
+19  SAS 01647/2017  23/11/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2017     14.009,40
+20  SAS 00777/2017  19/04/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2017      6.746,28
+21  SAS 00236/2017  30/01/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2017     22.790,73
+22  SAS 01545/2016  03/11/2016  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2016     24.831,72
+23  SAS 01287/2015  21/12/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2016    -44.957,77
+24  SAS 01177/2015  20/11/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2015     50.577,49
+25  SAS 00286/2011  20/06/2011  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2011      9.729,72
+26  SAS 00658/2010  06/12/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2010     48.361,80
+27  SAS 00497/2010  24/09/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2010         -2,04
+28  SAS 00297/2010  29/06/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2010    -35.088,00
+29  SAS 00257/2010  01/06/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2010     92.588,88
+30  SAS 00218/2010  05/05/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2010     94.311,69
+31                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003          0,00
+2025-02-06 20:39:52,069 - INFO - Dados salvos em tabela_analise.json
+2025-02-06 20:45:52,610 - INFO - Baixando análise do Teto MAC de 420245...
+2025-02-06 20:45:58,414 - INFO - Acessando SISMAC...
+2025-02-06 20:45:58,414 - INFO - Baixando Portarias de 420245...
+2025-02-06 20:46:05,518 - INFO - Município 420245 selecionado.
+2025-02-06 20:46:35,734 - ERROR - Um erro ocorreu: Message: 
 
-2024-12-28 21:32:22,746 - INFO - Baixando análise do Teto MAC de 291320...
-2024-12-28 21:32:27,578 - INFO - Acessando SISMAC...
-2024-12-28 21:32:27,581 - INFO - Baixando Portarias de 291320...
-2024-12-28 21:32:33,506 - INFO - Município 291320 selecionado.
-2024-12-28 21:32:34,315 - INFO - 10 linhas encontradas na tabela.
-2024-12-28 21:32:34,654 - INFO - Opção '100' selecionada no dropdown.
-2024-12-28 21:32:34,654 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-28 21:32:34,673 - INFO - Linhas da tabela carregadas!
-2024-12-28 21:32:39,682 - INFO - 21 linhas encontradas.
-2024-12-28 21:32:41,177 - INFO - Dados da tabela extraídos.
-2024-12-28 21:32:41,178 - INFO - DataFrame criado:
-2024-12-28 21:32:41,178 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024      84.192,00
-1    GM 03949/2024  28/06/2024            Acréscimo    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024     144.000,00
-2    GM 03949/2024  28/06/2024      Recurso Mantido    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024     480.000,00
-3    GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023     805.350,00
-4    GM 01631/2023  24/10/2023            Acréscimo       Incentivo SAMU - Qualificação                       SAMU     8ª/2023     288.834,00
-5    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023      92.076,00
-6    GM 01388/2022  10/06/2022            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     7ª/2022      62.339,95
-7    GM 03203/2021  19/11/2021            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2021         331,29
-8   SAS 00406/2019  03/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.964.845,23
-9    GM 00015/2018  05/01/2018            Acréscimo       ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade     2ª/2018      44.595,00
-10   GM 03908/2017  28/12/2017           Decréscimo                AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade     6ª/2016      -1.369,98
-11   GM 03687/2017  26/12/2017            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2018          19,52
-12   GM 01063/2016  27/05/2016            Acréscimo                AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade     6ª/2016       1.369,98
-13  SAS 00101/2015  29/01/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2015     -34.620,96
-14  SAS 00534/2013  17/05/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2013       4.170,00
-15  SAS 01200/2012  25/10/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2012     239.926,32
-16  SAS 01012/2012  21/09/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2012    -239.926,32
-17  SAS 00636/2012  10/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2012     327.181,51
-18  SAS 00557/2012  15/06/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012  -2.290.270,57
-19  SAS 00280/2012  04/04/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2012   3.632.206,11
-20                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-28 21:32:41,199 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 19:49:53,513 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-29 19:49:57,959 - INFO - Acessando SISMAC...
-2024-12-29 19:49:57,959 - INFO - Baixando Portarias de 320120...
-2024-12-29 19:50:03,560 - INFO - Município 320120 selecionado.
-2024-12-29 19:50:04,545 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 19:50:04,641 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 19:50:04,642 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 19:50:04,662 - INFO - Linhas da tabela carregadas!
-2024-12-29 19:50:09,674 - INFO - 37 linhas encontradas.
-2024-12-29 19:50:12,771 - INFO - Dados da tabela extraídos.
-2024-12-29 19:50:12,773 - INFO - DataFrame criado:
-2024-12-29 19:50:12,773 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     118.320,00
-1   REM 03212/2024  14/11/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2024   7.757.060,79
-2    GM 04922/2024  26/07/2024            Acréscimo                    Incentivo CEREST          Outros Incentivos     6ª/2024     360.000,00
-3   REM 03201/2023  12/12/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2024  -2.266.907,47
-4    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     129.408,00
-5   REM 03201/2022  15/12/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2023   2.720.288,96
-6   REM 03212/2022  16/11/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2022     509.212,80
-7   REM 03209/2022  15/08/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2022  -1.360.144,48
-8    GM 03426/2020  16/12/2020            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021       1.174,60
-9   REM 03202/2020  20/01/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2020       6.780,00
-10  SAS 01422/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020        -179,77
-11  SAS 01196/2019  15/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019         179,77
-12  SAS 00492/2019  22/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2019        -308,19
-13  SAS 00373/2019  25/03/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.650.760,14
-14  SAS 00074/2019  25/01/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2019      48.757,10
-15  SAS 01966/2018  28/12/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2019     -45.015,59
-16  SAS 01059/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018     252.966,95
-17  SAS 01045/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2018     618.558,68
-18  SAS 00245/2018  19/03/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2018     -26.400,00
-19   GM 00571/2018  14/03/2018            Acréscimo                       Incentivo UPA                        UPA     4ª/2018   1.200.000,00
-20  SAS 01267/2017  07/08/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2017     -26.400,00
-21  SAS 01129/2017  19/06/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2017     -31.336,92
-22  SAS 02172/2016  28/12/2016  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2017     -90.000,00
-23  SAS 01124/2015  23/10/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2015     -33.211,54
-24  SAS 00911/2015  21/09/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2015     -34.711,54
-25  SAS 00719/2015  12/08/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2015      67.923,08
-26  SAS 00631/2015  21/07/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2015     439.011,95
-27  SAS 00418/2015  12/05/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2015    -398.538,50
-28  SAS 01458/2014  22/12/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2015     -14.073,45
-29   GM 01367/2014  04/07/2014            Acréscimo                    Incentivo CEREST          Outros Incentivos     8ª/2014     360.000,00
-30  SAS 00400/2014  22/05/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2014          -0,11
-31  SAS 00129/2014  24/02/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2014  -7.732.081,81
-32  SAS 00038/2014  20/01/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2014   7.752.037,77
-33  SAS 01437/2013  24/12/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2014    -215.267,48
-34   GM 01328/2013  08/07/2013            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     8ª/2013     477.360,00
-35  SAS 00616/2012  04/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012     293.762,70
-36                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-29 19:50:12,799 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 20:38:14,815 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-29 20:38:19,329 - INFO - Acessando SISMAC...
-2024-12-29 20:38:19,330 - INFO - Baixando Portarias de 320120...
-2024-12-29 20:38:25,113 - INFO - Município 320120 selecionado.
-2024-12-29 20:38:25,894 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 20:38:26,214 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 20:38:26,215 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 20:38:26,233 - INFO - Linhas da tabela carregadas!
-2024-12-29 20:38:31,246 - INFO - 37 linhas encontradas.
-2024-12-29 20:38:33,933 - INFO - Dados da tabela extraídos.
-2024-12-29 20:38:33,933 - INFO - DataFrame criado:
-2024-12-29 20:38:33,934 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     118.320,00
-1   REM 03212/2024  14/11/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2024   7.757.060,79
-2    GM 04922/2024  26/07/2024            Acréscimo                    Incentivo CEREST          Outros Incentivos     6ª/2024     360.000,00
-3   REM 03201/2023  12/12/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2024  -2.266.907,47
-4    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     129.408,00
-5   REM 03201/2022  15/12/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2023   2.720.288,96
-6   REM 03212/2022  16/11/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2022     509.212,80
-7   REM 03209/2022  15/08/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2022  -1.360.144,48
-8    GM 03426/2020  16/12/2020            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021       1.174,60
-9   REM 03202/2020  20/01/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2020       6.780,00
-10  SAS 01422/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020        -179,77
-11  SAS 01196/2019  15/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019         179,77
-12  SAS 00492/2019  22/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2019        -308,19
-13  SAS 00373/2019  25/03/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.650.760,14
-14  SAS 00074/2019  25/01/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2019      48.757,10
-15  SAS 01966/2018  28/12/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2019     -45.015,59
-16  SAS 01059/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018     252.966,95
-17  SAS 01045/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2018     618.558,68
-18  SAS 00245/2018  19/03/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2018     -26.400,00
-19   GM 00571/2018  14/03/2018            Acréscimo                       Incentivo UPA                        UPA     4ª/2018   1.200.000,00
-20  SAS 01267/2017  07/08/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2017     -26.400,00
-21  SAS 01129/2017  19/06/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2017     -31.336,92
-22  SAS 02172/2016  28/12/2016  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2017     -90.000,00
-23  SAS 01124/2015  23/10/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2015     -33.211,54
-24  SAS 00911/2015  21/09/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2015     -34.711,54
-25  SAS 00719/2015  12/08/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2015      67.923,08
-26  SAS 00631/2015  21/07/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2015     439.011,95
-27  SAS 00418/2015  12/05/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2015    -398.538,50
-28  SAS 01458/2014  22/12/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2015     -14.073,45
-29   GM 01367/2014  04/07/2014            Acréscimo                    Incentivo CEREST          Outros Incentivos     8ª/2014     360.000,00
-30  SAS 00400/2014  22/05/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2014          -0,11
-31  SAS 00129/2014  24/02/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2014  -7.732.081,81
-32  SAS 00038/2014  20/01/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2014   7.752.037,77
-33  SAS 01437/2013  24/12/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2014    -215.267,48
-34   GM 01328/2013  08/07/2013            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     8ª/2013     477.360,00
-35  SAS 00616/2012  04/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012     293.762,70
-36                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-29 20:38:33,960 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 20:49:51,596 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-29 20:49:55,954 - INFO - Acessando SISMAC...
-2024-12-29 20:49:55,954 - INFO - Baixando Portarias de 320120...
-2024-12-29 20:50:01,702 - INFO - Município 320120 selecionado.
-2024-12-29 20:50:02,699 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 20:50:02,795 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 20:50:02,796 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 20:50:02,816 - INFO - Linhas da tabela carregadas!
-2024-12-29 20:50:07,855 - INFO - 37 linhas encontradas.
-2024-12-29 20:50:10,467 - INFO - Dados da tabela extraídos.
-2024-12-29 20:50:10,468 - INFO - DataFrame criado:
-2024-12-29 20:50:10,468 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     118.320,00
-1   REM 03212/2024  14/11/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2024   7.757.060,79
-2    GM 04922/2024  26/07/2024            Acréscimo                    Incentivo CEREST          Outros Incentivos     6ª/2024     360.000,00
-3   REM 03201/2023  12/12/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2024  -2.266.907,47
-4    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     129.408,00
-5   REM 03201/2022  15/12/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2023   2.720.288,96
-6   REM 03212/2022  16/11/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2022     509.212,80
-7   REM 03209/2022  15/08/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2022  -1.360.144,48
-8    GM 03426/2020  16/12/2020            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021       1.174,60
-9   REM 03202/2020  20/01/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2020       6.780,00
-10  SAS 01422/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020        -179,77
-11  SAS 01196/2019  15/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019         179,77
-12  SAS 00492/2019  22/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2019        -308,19
-13  SAS 00373/2019  25/03/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.650.760,14
-14  SAS 00074/2019  25/01/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2019      48.757,10
-15  SAS 01966/2018  28/12/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2019     -45.015,59
-16  SAS 01059/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018     252.966,95
-17  SAS 01045/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2018     618.558,68
-18  SAS 00245/2018  19/03/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2018     -26.400,00
-19   GM 00571/2018  14/03/2018            Acréscimo                       Incentivo UPA                        UPA     4ª/2018   1.200.000,00
-20  SAS 01267/2017  07/08/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2017     -26.400,00
-21  SAS 01129/2017  19/06/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2017     -31.336,92
-22  SAS 02172/2016  28/12/2016  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2017     -90.000,00
-23  SAS 01124/2015  23/10/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2015     -33.211,54
-24  SAS 00911/2015  21/09/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2015     -34.711,54
-25  SAS 00719/2015  12/08/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2015      67.923,08
-26  SAS 00631/2015  21/07/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2015     439.011,95
-27  SAS 00418/2015  12/05/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2015    -398.538,50
-28  SAS 01458/2014  22/12/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2015     -14.073,45
-29   GM 01367/2014  04/07/2014            Acréscimo                    Incentivo CEREST          Outros Incentivos     8ª/2014     360.000,00
-30  SAS 00400/2014  22/05/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2014          -0,11
-31  SAS 00129/2014  24/02/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2014  -7.732.081,81
-32  SAS 00038/2014  20/01/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2014   7.752.037,77
-33  SAS 01437/2013  24/12/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2014    -215.267,48
-34   GM 01328/2013  08/07/2013            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     8ª/2013     477.360,00
-35  SAS 00616/2012  04/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012     293.762,70
-36                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-29 20:50:10,494 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 21:21:45,090 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-29 21:21:49,419 - INFO - Acessando SISMAC...
-2024-12-29 21:21:49,419 - INFO - Baixando Portarias de 320120...
-2024-12-29 21:21:55,405 - INFO - Município 320120 selecionado.
-2024-12-29 21:21:56,427 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 21:21:56,538 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 21:21:56,539 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 21:21:56,561 - INFO - Linhas da tabela carregadas!
-2024-12-29 21:22:01,577 - INFO - 37 linhas encontradas.
-2024-12-29 21:22:04,291 - INFO - Dados da tabela extraídos.
-2024-12-29 21:22:04,292 - INFO - DataFrame criado:
-2024-12-29 21:22:04,292 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência          Valor
-0    GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     118.320,00
-1   REM 03212/2024  14/11/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2024   7.757.060,79
-2    GM 04922/2024  26/07/2024            Acréscimo                    Incentivo CEREST          Outros Incentivos     6ª/2024     360.000,00
-3   REM 03201/2023  12/12/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2024  -2.266.907,47
-4    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     129.408,00
-5   REM 03201/2022  15/12/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2023   2.720.288,96
-6   REM 03212/2022  16/11/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2022     509.212,80
-7   REM 03209/2022  15/08/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2022  -1.360.144,48
-8    GM 03426/2020  16/12/2020            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021       1.174,60
-9   REM 03202/2020  20/01/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2020       6.780,00
-10  SAS 01422/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020        -179,77
-11  SAS 01196/2019  15/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019         179,77
-12  SAS 00492/2019  22/04/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2019        -308,19
-13  SAS 00373/2019  25/03/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2019   1.650.760,14
-14  SAS 00074/2019  25/01/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2019      48.757,10
-15  SAS 01966/2018  28/12/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2019     -45.015,59
-16  SAS 01059/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018     252.966,95
-17  SAS 01045/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2018     618.558,68
-18  SAS 00245/2018  19/03/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2018     -26.400,00
-19   GM 00571/2018  14/03/2018            Acréscimo                       Incentivo UPA                        UPA     4ª/2018   1.200.000,00
-20  SAS 01267/2017  07/08/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2017     -26.400,00
-21  SAS 01129/2017  19/06/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2017     -31.336,92
-22  SAS 02172/2016  28/12/2016  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2017     -90.000,00
-23  SAS 01124/2015  23/10/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2015     -33.211,54
-24  SAS 00911/2015  21/09/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2015     -34.711,54
-25  SAS 00719/2015  12/08/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2015      67.923,08
-26  SAS 00631/2015  21/07/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2015     439.011,95
-27  SAS 00418/2015  12/05/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2015    -398.538,50
-28  SAS 01458/2014  22/12/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2015     -14.073,45
-29   GM 01367/2014  04/07/2014            Acréscimo                    Incentivo CEREST          Outros Incentivos     8ª/2014     360.000,00
-30  SAS 00400/2014  22/05/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2014          -0,11
-31  SAS 00129/2014  24/02/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2014  -7.732.081,81
-32  SAS 00038/2014  20/01/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2014   7.752.037,77
-33  SAS 01437/2013  24/12/2013  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2014    -215.267,48
-34   GM 01328/2013  08/07/2013            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     8ª/2013     477.360,00
-35  SAS 00616/2012  04/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2012     293.762,70
-36                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003           0,00
-2024-12-29 21:22:04,318 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 21:25:52,474 - INFO - Baixando análise do Teto MAC de 320120...
-2024-12-29 21:25:57,216 - INFO - Acessando SISMAC...
-2024-12-29 21:25:57,217 - INFO - Baixando Portarias de 320120...
-2024-12-29 21:26:02,962 - INFO - Município 320120 selecionado.
-2024-12-29 21:26:03,733 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 21:26:04,080 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 21:26:04,080 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 21:26:04,101 - INFO - Linhas da tabela carregadas!
-2024-12-29 21:26:09,141 - INFO - 37 linhas encontradas.
-2024-12-29 21:26:12,117 - INFO - Dados da tabela extraídos.
-2024-12-29 21:26:12,118 - INFO - DataFrame criado:
-2024-12-29 21:26:12,118 - INFO -           Portaria        Data  ... Competência          Valor
-0    GM 06267/2024  27/12/2024  ...    11ª/2024     118.320,00
-1   REM 03212/2024  14/11/2024  ...    12ª/2024   7.757.060,79
-2    GM 04922/2024  26/07/2024  ...     6ª/2024     360.000,00
-3   REM 03201/2023  12/12/2023  ...     1ª/2024  -2.266.907,47
-4    GM 01261/2023  13/09/2023  ...     6ª/2023     129.408,00
-5   REM 03201/2022  15/12/2022  ...     1ª/2023   2.720.288,96
-6   REM 03212/2022  16/11/2022  ...    12ª/2022     509.212,80
-7   REM 03209/2022  15/08/2022  ...     9ª/2022  -1.360.144,48
-8    GM 03426/2020  16/12/2020  ...     1ª/2021       1.174,60
-9   REM 03202/2020  20/01/2020  ...     2ª/2020       6.780,00
-10  SAS 01422/2019  26/12/2019  ...     1ª/2020        -179,77
-11  SAS 01196/2019  15/10/2019  ...    11ª/2019         179,77
-12  SAS 00492/2019  22/04/2019  ...     5ª/2019        -308,19
-13  SAS 00373/2019  25/03/2019  ...     4ª/2019   1.650.760,14
-14  SAS 00074/2019  25/01/2019  ...     2ª/2019      48.757,10
-15  SAS 01966/2018  28/12/2018  ...     1ª/2019     -45.015,59
-16  SAS 01059/2018  16/07/2018  ...     8ª/2018     252.966,95
-17  SAS 01045/2018  16/07/2018  ...     7ª/2018     618.558,68
-18  SAS 00245/2018  19/03/2018  ...     3ª/2018     -26.400,00
-19   GM 00571/2018  14/03/2018  ...     4ª/2018   1.200.000,00
-20  SAS 01267/2017  07/08/2017  ...     8ª/2017     -26.400,00
-21  SAS 01129/2017  19/06/2017  ...     7ª/2017     -31.336,92
-22  SAS 02172/2016  28/12/2016  ...     1ª/2017     -90.000,00
-23  SAS 01124/2015  23/10/2015  ...    11ª/2015     -33.211,54
-24  SAS 00911/2015  21/09/2015  ...    10ª/2015     -34.711,54
-25  SAS 00719/2015  12/08/2015  ...     9ª/2015      67.923,08
-26  SAS 00631/2015  21/07/2015  ...     8ª/2015     439.011,95
-27  SAS 00418/2015  12/05/2015  ...     6ª/2015    -398.538,50
-28  SAS 01458/2014  22/12/2014  ...     1ª/2015     -14.073,45
-29   GM 01367/2014  04/07/2014  ...     8ª/2014     360.000,00
-30  SAS 00400/2014  22/05/2014  ...     6ª/2014          -0,11
-31  SAS 00129/2014  24/02/2014  ...     3ª/2014  -7.732.081,81
-32  SAS 00038/2014  20/01/2014  ...     2ª/2014   7.752.037,77
-33  SAS 01437/2013  24/12/2013  ...     1ª/2014    -215.267,48
-34   GM 01328/2013  08/07/2013  ...     8ª/2013     477.360,00
-35  SAS 00616/2012  04/07/2012  ...     7ª/2012     293.762,70
-36                  31/12/2002  ...     1ª/2003           0,00
+2025-02-06 20:53:10,859 - INFO - Baixando análise do Teto MAC de 420245...
+2025-02-06 20:53:16,343 - INFO - Acessando SISMAC...
+2025-02-06 20:53:16,344 - INFO - Baixando Portarias de 420245...
+2025-02-06 20:53:23,007 - INFO - Município 420245 selecionado.
+2025-02-06 20:53:53,197 - ERROR - Um erro ocorreu: Message: 
 
-[37 rows x 7 columns]
-2024-12-29 21:26:12,143 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 21:43:49,391 - INFO - Baixando análise do Teto MAC de 261000...
-2024-12-29 21:43:53,656 - INFO - Acessando SISMAC...
-2024-12-29 21:43:53,657 - INFO - Baixando Portarias de 261000...
-2024-12-29 21:43:59,352 - INFO - Município 261000 selecionado.
-2024-12-29 21:44:00,039 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 21:44:00,359 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 21:44:00,360 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 21:44:00,384 - INFO - Linhas da tabela carregadas!
-2024-12-29 21:44:05,426 - INFO - 46 linhas encontradas.
-2024-12-29 21:44:08,817 - INFO - Dados da tabela extraídos.
-2024-12-29 21:44:08,818 - INFO - DataFrame criado:
-2024-12-29 21:44:08,818 - INFO -           Portaria        Data                 Tipo                               Incentivo                       Área Competência         Valor
-0    GM 06265/2024  28/12/2024            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS    11ª/2024     26.693,16
-1    GM 06267/2024  27/12/2024            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     84.192,00
-2    GM 04922/2024  26/07/2024            Acréscimo                        Incentivo CEREST          Outros Incentivos     6ª/2024    360.000,00
-3    GM 03949/2024  28/06/2024            Acréscimo        Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    201.600,00
-4    GM 03949/2024  28/06/2024      Recurso Mantido        Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    672.000,00
-5    GM 02287/2023  12/12/2023            Acréscimo                    AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade    12ª/2023  5.792.251,41
-6    GM 01631/2023  24/10/2023            Acréscimo                          Incentivo SAMU                       SAMU     8ª/2023    805.350,00
-7    GM 01627/2023  24/10/2023            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS     6ª/2023     28.465,44
-8    GM 01261/2023  13/09/2023            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     92.076,00
-9    GM 00517/2023  28/04/2023            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS     5ª/2023    105.000,00
-10   GM 01388/2022  10/06/2022            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     7ª/2022    199.313,92
-11   GM 01098/2022  13/05/2022            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     6ª/2022     34.478,80
-12   GM 03426/2020  16/12/2020            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021     25.075,77
-13  REM 02608/2020  20/07/2020  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     8ª/2020    -27.935,88
-14  REM 02607/2020  18/06/2020  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     7ª/2020    147.672,84
-15   GM 00015/2018  05/01/2018            Acréscimo           ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade     2ª/2018     33.615,00
-16   GM 01367/2014  04/07/2014            Acréscimo                        Incentivo CEREST          Outros Incentivos     8ª/2014    360.000,00
-17  SAS 00308/2013  26/03/2013  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2013      1.858,65
-18   GM 02602/2012  19/11/2012            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2013      6.659,20
-19   GM 03163/2011  28/12/2011            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2012      2.786,40
-20   GM 03099/2011  26/12/2011            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     1ª/2012     78.012,00
-21  SAS 00511/2011  06/09/2011           Decréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2011     -2.539,58
-22   GM 04120/2010  24/12/2010            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011     32.396,11
-23   GM 04032/2010  20/12/2010            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011        236,20
-24  SAS 00495/2009  23/12/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     1ª/2010    161.257,59
-25  SAS 00362/2009  26/10/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    11ª/2009   -154.208,76
-26   GM 01946/2009  28/08/2009            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2009      6.789,63
-27  SAS 00121/2009  23/04/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2009    161.257,59
-28   GM 03194/2008  31/12/2008            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2009    449.953,53
-29   GM 03090/2008  24/12/2008            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     1ª/2009    261.648,00
-30   GM 02867/2008  28/11/2008            Acréscimo           ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade    12ª/2008    101.400,66
-31  SAS 00407/2008  22/07/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     8ª/2008          0,05
-32  SAS 00300/2008  28/05/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     6ª/2008      6.079,23
-33   GM 00527/2008  24/03/2008            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     2ª/2008      7.599,84
-34  SAS 00149/2008  14/03/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2008     -6.079,23
-35  SAS 00720/2007  31/12/2007            Acréscimo                    AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade    10ª/2007    355.877,04
-36   GM 03174/2007  12/12/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2007     34.111,60
-37   GM 03175/2007  12/12/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2007     15.368,87
-38   GM 02924/2007  16/11/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2007        189,29
-39   GM 02640/2007  17/10/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2007    767.976,31
-40  SAS 00551/2007  15/10/2007  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    10ª/2007         -0,03
-41   GM 01820/2007  01/08/2007            Acréscimo                 TABELA DE PROCEDIMENTOS          Saúde Mental-RAPS     8ª/2007      6.079,36
-42  SAS 00049/2007  31/01/2007  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     2ª/2007    798.513,77
-43  SAS 00645/2006  18/09/2006  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    10ª/2006     31.806,00
-44   GM 01280/2006  08/08/2006            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     6ª/2006     31.806,00
-45                  31/12/2002       Limite Inicial      Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003  5.452.850,36
-2024-12-29 21:44:08,846 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 21:54:44,247 - INFO - Baixando análise do Teto MAC de 261000...
-2024-12-29 21:54:48,798 - INFO - Acessando SISMAC...
-2024-12-29 21:54:48,799 - INFO - Baixando Portarias de 261000...
-2024-12-29 21:54:54,496 - INFO - Município 261000 selecionado.
-2024-12-29 21:54:55,397 - INFO - 10 linhas encontradas na tabela.
-2024-12-29 21:54:55,493 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 21:54:55,494 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 21:54:55,513 - INFO - Linhas da tabela carregadas!
-2024-12-29 21:55:00,528 - INFO - 46 linhas encontradas.
-2024-12-29 21:55:03,772 - INFO - Dados da tabela extraídos.
-2024-12-29 21:55:03,773 - INFO - DataFrame criado:
-2024-12-29 21:55:03,773 - INFO -           Portaria        Data                 Tipo                               Incentivo                       Área Competência         Valor
-0    GM 06265/2024  28/12/2024            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS    11ª/2024     26.693,16
-1    GM 06267/2024  27/12/2024            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     84.192,00
-2    GM 04922/2024  26/07/2024            Acréscimo                        Incentivo CEREST          Outros Incentivos     6ª/2024    360.000,00
-3    GM 03949/2024  28/06/2024            Acréscimo        Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    201.600,00
-4    GM 03949/2024  28/06/2024      Recurso Mantido        Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    672.000,00
-5    GM 02287/2023  12/12/2023            Acréscimo                    AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade    12ª/2023  5.792.251,41
-6    GM 01631/2023  24/10/2023            Acréscimo                          Incentivo SAMU                       SAMU     8ª/2023    805.350,00
-7    GM 01627/2023  24/10/2023            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS     6ª/2023     28.465,44
-8    GM 01261/2023  13/09/2023            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     92.076,00
-9    GM 00517/2023  28/04/2023            Acréscimo  Incentivo RESIDENCIA TERAPEUTICA - SRT          Saúde Mental-RAPS     5ª/2023    105.000,00
-10   GM 01388/2022  10/06/2022            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     7ª/2022    199.313,92
-11   GM 01098/2022  13/05/2022            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     6ª/2022     34.478,80
-12   GM 03426/2020  16/12/2020            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2021     25.075,77
-13  REM 02608/2020  20/07/2020  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     8ª/2020    -27.935,88
-14  REM 02607/2020  18/06/2020  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     7ª/2020    147.672,84
-15   GM 00015/2018  05/01/2018            Acréscimo           ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade     2ª/2018     33.615,00
-16   GM 01367/2014  04/07/2014            Acréscimo                        Incentivo CEREST          Outros Incentivos     8ª/2014    360.000,00
-17  SAS 00308/2013  26/03/2013  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2013      1.858,65
-18   GM 02602/2012  19/11/2012            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2013      6.659,20
-19   GM 03163/2011  28/12/2011            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2012      2.786,40
-20   GM 03099/2011  26/12/2011            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     1ª/2012     78.012,00
-21  SAS 00511/2011  06/09/2011           Decréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2011     -2.539,58
-22   GM 04120/2010  24/12/2010            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011     32.396,11
-23   GM 04032/2010  20/12/2010            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011        236,20
-24  SAS 00495/2009  23/12/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     1ª/2010    161.257,59
-25  SAS 00362/2009  26/10/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    11ª/2009   -154.208,76
-26   GM 01946/2009  28/08/2009            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2009      6.789,63
-27  SAS 00121/2009  23/04/2009  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2009    161.257,59
-28   GM 03194/2008  31/12/2008            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2009    449.953,53
-29   GM 03090/2008  24/12/2008            Acréscimo       Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     1ª/2009    261.648,00
-30   GM 02867/2008  28/11/2008            Acréscimo           ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade    12ª/2008    101.400,66
-31  SAS 00407/2008  22/07/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     8ª/2008          0,05
-32  SAS 00300/2008  28/05/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     6ª/2008      6.079,23
-33   GM 00527/2008  24/03/2008            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     2ª/2008      7.599,84
-34  SAS 00149/2008  14/03/2008  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     4ª/2008     -6.079,23
-35  SAS 00720/2007  31/12/2007            Acréscimo                    AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade    10ª/2007    355.877,04
-36   GM 03174/2007  12/12/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2007     34.111,60
-37   GM 03175/2007  12/12/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    12ª/2007     15.368,87
-38   GM 02924/2007  16/11/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2007        189,29
-39   GM 02640/2007  17/10/2007            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2007    767.976,31
-40  SAS 00551/2007  15/10/2007  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    10ª/2007         -0,03
-41   GM 01820/2007  01/08/2007            Acréscimo                 TABELA DE PROCEDIMENTOS          Saúde Mental-RAPS     8ª/2007      6.079,36
-42  SAS 00049/2007  31/01/2007  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade     2ª/2007    798.513,77
-43  SAS 00645/2006  18/09/2006  Remanejamento_Intra                             DECISÃO CIB  Média e Alta Complexidade    10ª/2006     31.806,00
-44   GM 01280/2006  08/08/2006            Acréscimo                 TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     6ª/2006     31.806,00
-45                  31/12/2002       Limite Inicial      Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003  5.452.850,36
-2024-12-29 21:55:03,802 - INFO - Dados salvos em tabela_analise.json
-2024-12-29 22:15:33,234 - INFO - Baixando análise do Teto MAC de 261180...
-2024-12-29 22:15:37,374 - INFO - Acessando SISMAC...
-2024-12-29 22:15:37,375 - INFO - Baixando Portarias de 261180...
-2024-12-29 22:15:43,022 - INFO - Município 261180 selecionado.
-2024-12-29 22:15:43,688 - INFO - 7 linhas encontradas na tabela.
-2024-12-29 22:15:44,012 - INFO - Opção '100' selecionada no dropdown.
-2024-12-29 22:15:44,013 - INFO - Aguardando carregamento das linhas da tabela...
-2024-12-29 22:15:44,033 - INFO - Linhas da tabela carregadas!
-2024-12-29 22:15:49,041 - INFO - 7 linhas encontradas.
-2024-12-29 22:15:49,568 - INFO - Dados da tabela extraídos.
-2024-12-29 22:15:49,570 - INFO - DataFrame criado:
-2024-12-29 22:15:49,570 - INFO -          Portaria        Data                 Tipo                           Incentivo                       Área Competência         Valor
-0   GM 06267/2024  27/12/2024            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    11ª/2024     84.192,00
-1   GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023    204.750,00
-2   GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     92.076,00
-3   GM 01366/2022  08/06/2022            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     7ª/2022    339.660,00
-4   GM 04120/2010  24/12/2010            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011      1.784,93
-5  SAS 00258/2010  01/06/2010  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2010  2.162.688,92
-6                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003          0,00
-2024-12-29 22:15:49,590 - INFO - Dados salvos em tabela_analise.json
-2025-01-01 19:49:27,308 - INFO - Baixando análise do Teto MAC de 293345...
-2025-01-01 19:49:31,799 - INFO - Acessando SISMAC...
-2025-01-01 19:49:31,800 - INFO - Baixando Portarias de 293345...
-2025-01-01 19:49:37,592 - INFO - Município 293345 selecionado.
-2025-01-01 19:50:07,648 - ERROR - Um erro ocorreu: Message: 
+2025-02-06 21:02:03,400 - INFO - Baixando análise do Teto MAC de 420245...
+2025-02-06 21:02:08,653 - INFO - Acessando SISMAC...
+2025-02-06 21:02:08,654 - INFO - Baixando Portarias de 420245...
+2025-02-06 21:02:15,195 - INFO - Município 420245 selecionado.
+2025-02-06 21:02:45,401 - ERROR - Um erro ocorreu: Message: 
 
+2025-02-06 21:36:41,069 - INFO - Baixando análise do Teto MAC de 421350...
+2025-02-06 21:36:45,155 - INFO - Acessando SISMAC...
+2025-02-06 21:36:45,155 - INFO - Baixando Portarias de 421350...
+2025-02-06 21:36:51,120 - INFO - Município 421350 selecionado.
+2025-02-06 21:36:52,034 - INFO - 10 linhas encontradas na tabela.
+2025-02-06 21:36:52,415 - INFO - Opção '100' selecionada no dropdown.
+2025-02-06 21:36:52,415 - INFO - Aguardando carregamento das linhas da tabela...
+2025-02-06 21:36:52,482 - INFO - Linhas da tabela carregadas!
+2025-02-06 21:36:57,507 - INFO - 32 linhas encontradas.
+2025-02-06 21:36:59,525 - INFO - Dados da tabela extraídos.
+2025-02-06 21:36:59,526 - INFO - DataFrame criado:
+2025-02-06 21:36:59,526 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência        Valor
+0   REM 04210/2024  13/09/2024  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2024   591.546,48
+1    GM 02452/2023  20/12/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS    12ª/2023   431.736,00
+2   REM 04210/2023  15/09/2023  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2023       372,12
+3   REM 04207/2022  13/06/2022  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2022      -972,24
+4    GM 01098/2022  13/05/2022            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     6ª/2022     1.619,25
+5   REM 04207/2021  14/06/2021  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2021     1.572,36
+6   REM 04206/2021  14/05/2021  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2021        -3,60
+7   REM 04211/2020  15/10/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2020   -59.591,02
+8   REM 04210/2020  18/09/2020  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2020    59.591,02
+9   SAS 01435/2019  26/12/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2020       -19,20
+10  SAS 01215/2019  22/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2019        19,73
+11  SAS 01141/2019  07/10/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2019   -14.574,29
+12  SAS 01050/2019  10/09/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     9ª/2019  -195.924,96
+13  SAS 00854/2019  22/07/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2019   391.849,92
+14  SAS 00777/2019  27/06/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     7ª/2019  -156.018,24
+15  SAS 00614/2019  24/05/2019  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2019   244.847,04
+16  SAS 01646/2018  25/10/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2018    47.941,80
+17  SAS 01046/2018  16/07/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2018       514,92
+18  SAS 00726/2018  01/06/2018  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2018        -5,04
+19  SAS 01807/2017  07/12/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2017   -24.248,52
+20  SAS 01647/2017  23/11/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2017    52.029,24
+21  SAS 00777/2017  19/04/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     5ª/2017     1.407,00
+22  SAS 00236/2017  30/01/2017  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2017    25.023,24
+23  SAS 01287/2015  21/12/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     1ª/2016   -49.795,05
+24  SAS 01177/2015  20/11/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    12ª/2015    56.019,43
+25  SAS 00305/2015  02/04/2015  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2015   156.018,24
+26  SAS 00128/2014  24/02/2014  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2014    11.990,64
+27  SAS 00665/2012  18/07/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     8ª/2012       118,80
+28  SAS 00221/2012  20/03/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2012       411,60
+29  SAS 00030/2012  19/01/2012  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     2ª/2012    50.697,12
+30  SAS 00701/2011  20/10/2011  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    11ª/2011   168.436,46
+31                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003         0,00
+2025-02-06 21:36:59,548 - INFO - Dados salvos em tabela_analise.json
+2025-04-10 22:52:31,398 - INFO - Baixando análise do Teto MAC de 261450...
+2025-04-10 22:52:34,888 - INFO - Acessando SISMAC...
+2025-04-10 22:52:34,888 - INFO - Baixando Portarias de 261450...
+2025-04-10 22:52:39,865 - INFO - Município 261450 selecionado.
+2025-04-10 22:52:40,618 - INFO - 10 linhas encontradas na tabela.
+2025-04-10 22:52:40,716 - INFO - Opção '100' selecionada no dropdown.
+2025-04-10 22:52:40,716 - INFO - Aguardando carregamento das linhas da tabela...
+2025-04-10 22:52:40,733 - INFO - Linhas da tabela carregadas!
+2025-04-10 22:52:45,747 - INFO - 26 linhas encontradas.
+2025-04-10 22:52:47,675 - INFO - Dados da tabela extraídos.
+2025-04-10 22:52:47,676 - INFO - DataFrame criado:
+2025-04-10 22:52:47,676 - INFO -           Portaria        Data                 Tipo                           Incentivo                       Área Competência         Valor
+0    GM 03949/2024  28/06/2024            Acréscimo    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    180.000,00
+1    GM 03949/2024  28/06/2024      Recurso Mantido    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa     1ª/2024    600.000,00
+2    GM 02619/2023  27/12/2023            Acréscimo    Incentivo EMAD I, EMAD II e EMAP             Melhor em Casa    12ª/2023     93.600,00
+3    GM 01631/2023  24/10/2023            Acréscimo                      Incentivo SAMU                       SAMU     8ª/2023    805.350,00
+4    GM 01261/2023  13/09/2023            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     6ª/2023     92.076,00
+5    GM 01388/2022  10/06/2022            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     7ª/2022    101.809,01
+6    GM 00015/2018  05/01/2018            Acréscimo       ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade     2ª/2018     55.305,00
+7    GM 02200/2014  06/10/2014            Acréscimo   Incentivo HOSPITAIS FILANTRÓPICOS          Outros Incentivos    11ª/2014    700.813,44
+8    GM 02602/2012  19/11/2012            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2013      2.000,00
+9    GM 01416/2012  09/07/2012            Acréscimo   Incentivo HOSPITAIS FILANTRÓPICOS          Outros Incentivos     2ª/2012    210.847,43
+10   GM 03099/2011  26/12/2011            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     1ª/2012    149.754,21
+11   GM 02506/2011  27/10/2011            Acréscimo   Incentivo HOSPITAIS FILANTRÓPICOS          Outros Incentivos     8ª/2011    229.808,68
+12  SAS 00511/2011  06/09/2011            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2011    114.981,45
+13   GM 04120/2010  24/12/2010            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2011         51,49
+14   GM 01946/2009  28/08/2009            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2009        131,47
+15   GM 01195/2009  05/06/2009            Acréscimo   Incentivo CAPS I, II, III, i e ad          Saúde Mental-RAPS     7ª/2009     47.476,44
+16  SAS 00056/2009  04/03/2009  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     3ª/2009     88.355,32
+17   GM 03194/2008  31/12/2008            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade     1ª/2009    223.965,75
+18   GM 02867/2008  28/11/2008            Acréscimo       ALTERAÇÃO FORMA FINANCIAMENTO  Média e Alta Complexidade    12ª/2008     29.659,68
+19   GM 02867/2008  28/11/2008            Acréscimo              Incentivo SAUDE MENTAL          Saúde Mental-RAPS    12ª/2008    142.429,35
+20  SAS 00300/2008  28/05/2008  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     6ª/2008    190.544,35
+21  SAS 00149/2008  14/03/2008  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade     4ª/2008   -160.544,35
+22  SAS 00720/2007  31/12/2007            Acréscimo                AMPLIAÇÃO - TETO MAC  Média e Alta Complexidade    10ª/2007    418.678,87
+23   GM 02640/2007  17/10/2007            Acréscimo             TABELA DE PROCEDIMENTOS  Média e Alta Complexidade    10ª/2007    539.809,25
+24  SAS 00551/2007  15/10/2007  Remanejamento_Intra                         DECISÃO CIB  Média e Alta Complexidade    10ª/2007  2.067.567,84
+25                  31/12/2002       Limite Inicial  Limite Financeiro MAC até Jan/2003  Média e Alta Complexidade     1ª/2003  3.498.313,29
+2025-04-10 22:52:47,699 - INFO - Dados salvos em tabela_analise.json

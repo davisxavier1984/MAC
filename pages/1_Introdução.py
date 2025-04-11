@@ -303,7 +303,7 @@ def main():
     
         # Caminhos das imagens
         logo_maisgestor = 'logo_colorida_mg.png'
-        logo = 'logo.jpg'
+        logo = 'bombinhas.png'
 
         # Converter imagens para base64
         logo_maisgestor_base64 = img_to_base64(logo_maisgestor)
@@ -314,7 +314,9 @@ def main():
             f"""
             <div style="display: flex; flex-direction: column; align-items: center;">
                 <img src='data:image/png;base64,{logo_maisgestor_base64}' style='height: 100px; margin-bottom: 20px;'>
-                <img src='data:image/png;base64,{logo_base64}' style='height: 150px;'>
+                <img src='data:image/png;base64,{logo_base64}' style='height: 100px; margin-bottom: 20px;'>
+                
+                
             </div>
             """,
             unsafe_allow_html=True,

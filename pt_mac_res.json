@@ -1,14 +1,102 @@
 [
     {
-        "Portaria": "GM 06267/2024",
-        "Data": "2024-12-27 00:00:00",
+        "Portaria": "SAS 00056/2009",
+        "Data": "2009-03-04 00:00:00",
+        "Tipo": "Remanejamento_Intra",
+        "Incentivo": "DECISÃO CIB",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "3ª/2009",
+        "Valor": 8835532,
+        "Ano": 2009,
+        "Competência_Num": 3
+    },
+    {
+        "Portaria": "GM 01195/2009",
+        "Data": "2009-06-05 00:00:00",
         "Tipo": "Acréscimo",
         "Incentivo": "Incentivo CAPS I, II, III, i e ad",
         "Área": "Saúde Mental-RAPS",
-        "Competência": "11ª/2024",
-        "Valor": 841920,
-        "Ano": 2024,
+        "Competência": "7ª/2009",
+        "Valor": 4747644,
+        "Ano": 2009,
+        "Competência_Num": 7
+    },
+    {
+        "Portaria": "GM 02200/2014",
+        "Data": "2014-10-06 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo HOSPITAIS FILANTRÓPICOS",
+        "Área": "Outros Incentivos",
+        "Competência": "11ª/2014",
+        "Valor": 70081344,
+        "Ano": 2014,
         "Competência_Num": 11
+    },
+    {
+        "Portaria": "GM 01416/2012",
+        "Data": "2012-07-09 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo HOSPITAIS FILANTRÓPICOS",
+        "Área": "Outros Incentivos",
+        "Competência": "2ª/2012",
+        "Valor": 21084743,
+        "Ano": 2012,
+        "Competência_Num": 2
+    },
+    {
+        "Portaria": "GM 02602/2012",
+        "Data": "2012-11-19 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "1ª/2013",
+        "Valor": 20000,
+        "Ano": 2012,
+        "Competência_Num": 1
+    },
+    {
+        "Portaria": "GM 04120/2010",
+        "Data": "2010-12-24 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "TABELA DE PROCEDIMENTOS",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "1ª/2011",
+        "Valor": 5149,
+        "Ano": 2010,
+        "Competência_Num": 1
+    },
+    {
+        "Portaria": "GM 00015/2018",
+        "Data": "2018-01-05 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "ALTERAÇÃO FORMA FINANCIAMENTO",
+        "Área": "Média e Alta Complexidade",
+        "Competência": "2ª/2018",
+        "Valor": 553050,
+        "Ano": 2018,
+        "Competência_Num": 2
+    },
+    {
+        "Portaria": "GM 03949/2024",
+        "Data": "2024-06-28 00:00:00",
+        "Tipo": "Recurso Mantido",
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "1ª/2024",
+        "Valor": 6000000,
+        "Ano": 2024,
+        "Competência_Num": 1
+    },
+    {
+        "Portaria": "GM 03949/2024",
+        "Data": "2024-06-28 00:00:00",
+        "Tipo": "Acréscimo",
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "1ª/2024",
+        "Valor": 1800000,
+        "Ano": 2024,
+        "Competência_Num": 1
     },
     {
         "Portaria": "GM 01631/2023",
@@ -17,30 +105,19 @@
         "Incentivo": "Incentivo SAMU",
         "Área": "SAMU",
         "Competência": "8ª/2023",
-        "Valor": 2047500,
+        "Valor": 8053500,
         "Ano": 2023,
         "Competência_Num": 8
     },
     {
-        "Portaria": "GM 01261/2023",
-        "Data": "2023-09-13 00:00:00",
+        "Portaria": "GM 02619/2023",
+        "Data": "2023-12-27 00:00:00",
         "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "6ª/2023",
-        "Valor": 920760,
+        "Incentivo": "Incentivo EMAD I, EMAD II e EMAP",
+        "Área": "Melhor em Casa",
+        "Competência": "12ª/2023",
+        "Valor": 936000,
         "Ano": 2023,
-        "Competência_Num": 6
-    },
-    {
-        "Portaria": "GM 01366/2022",
-        "Data": "2022-06-08 00:00:00",
-        "Tipo": "Acréscimo",
-        "Incentivo": "Incentivo CAPS I, II, III, i e ad",
-        "Área": "Saúde Mental-RAPS",
-        "Competência": "7ª/2022",
-        "Valor": 3396600,
-        "Ano": 2022,
-        "Competência_Num": 7
+        "Competência_Num": 12
     }
 ]

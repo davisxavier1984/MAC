@@ -20,6 +20,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+# Executa o script que baixa ou gera o arquivo evolucao_mac.json
+subprocess.run(['python', 'evolucao_mac.py'])
+
 # Fila para enviar atualizações de status
 status_queue = queue.Queue()
 
@@ -125,21 +128,21 @@ def executar_scripts(nome_municipio, uf, status_dict):
         return [start_year, start_month, end_year, str(end_month)]
 
     # Executa todos os scripts
-    # run_script("evolucao_mac", str(codigo_ibge))
-    # run_script("evolucao_mac2", str(codigo_ibge))
-    # params = [*obter_params(evolucao_mac_json), str(codigo_ibge)]
-    # logger.debug(f"Parâmetros obtidos: {params}")
-    # run_script("MacUF", str(codigo_ibge))
-    # run_script("analise_teto_mac", str(codigo_ibge))
-    # run_script("BaixaSIA", *params)
-    # run_script("BaixaSIH", *params)
-    # run_script("Faixa", str(codigo_ibge))
-    # run_script("Econo", str(codigo_ibge), nome_municipio)
-    # run_script("Resumo_PT")
-    # run_script("Analise MAC", nome_municipio)
-    # run_script("Analise MAC_SIH", nome_municipio)
-    # run_script("Analise MAC_SIA", nome_municipio)
-    # run_script("Analise Correlações")
+    run_script("evolucao_mac", str(codigo_ibge))
+    run_script("evolucao_mac2", str(codigo_ibge))
+    params = [*obter_params(evolucao_mac_json), str(codigo_ibge)]
+    logger.debug(f"Parâmetros obtidos: {params}")
+    run_script("MacUF", str(codigo_ibge))
+    run_script("analise_teto_mac", str(codigo_ibge))
+    run_script("BaixaSIA", *params)
+    run_script("BaixaSIH", *params)
+    run_script("Faixa", str(codigo_ibge))
+    run_script("Econo", str(codigo_ibge), nome_municipio)
+    run_script("Resumo_PT")
+    run_script("Analise MAC", nome_municipio)
+    run_script("Analise MAC_SIH", nome_municipio)
+    run_script("Analise MAC_SIA", nome_municipio)
+    run_script("Analise Correlações")
     run_script("Conclusão")
 
     # Sinaliza o fim da execução de todos os scripts
@@ -181,7 +184,7 @@ def atualizar_status():
 
 # Função para abrir um novo terminal e executar o comando
 def abrir_terminal_e_executar_streamlit():
-    comando = f'streamlit run "Início.py"'
+    comando = f'streamlit run "Inicio.py"'
     
     if sys.platform.startswith('win'):  # Windows
         subprocess.Popen(['start', 'cmd', '/k', comando], shell=True)

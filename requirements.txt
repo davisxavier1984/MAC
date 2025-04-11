@@ -1,5 +1,4 @@
 plotly
 plotly-express
-json
 pandas
 babel

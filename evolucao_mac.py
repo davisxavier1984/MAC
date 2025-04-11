@@ -1,3 +1,4 @@
+import os
 import requests
 import sys
 import time
@@ -132,16 +133,57 @@ def main(municipio):
                     value = row[category].replace(".", "").replace(",", ".")
                     category_data[category][year] = value
                 reformatted_data.append(category_data)
+                
+                # Nome do arquivo JSON
+                json_filename = 'evolucao_mac.json'
 
-            # Salvar dados reformados em JSON
-            with open('evolucao_mac.json', 'w', encoding='utf-8') as file:
-                json.dump(reformatted_data, file, ensure_ascii=False, indent=4)
-            logger.info("Data saved to evolucao_mac.json")
-        else:
-            logger.warning("No data extracted to create DataFrame.")
+                def carregar_ou_criar_json():
+                    """Carrega o arquivo JSON ou cria um novo se ele não existir."""
+                    try:
+                        # Verifica se o arquivo existe
+                        if os.path.exists(json_filename):
+                            # Tenta carregar o arquivo JSON
+                            with open(json_filename, 'r', encoding='utf-8') as file:
+                                return json.load(file)
+                        else:
+                            # Se o arquivo não existir, cria um novo arquivo JSON com um objeto vazio
+                            logger.warning(f"Arquivo {json_filename} não encontrado. Criando um novo arquivo...")
+                            with open(json_filename, 'w', encoding='utf-8') as file:
+                                json.dump({}, file, ensure_ascii=False, indent=4)
+                            return {}
+                    except json.JSONDecodeError as e:
+                        # Se o arquivo estiver corrompido, cria um novo arquivo JSON válido
+                        logger.error(f"Erro ao decodificar o arquivo {json_filename}: {e}")
+                        logger.info("Criando um novo arquivo JSON válido...")
+                        with open(json_filename, 'w', encoding='utf-8') as file:
+                            json.dump({}, file, ensure_ascii=False, indent=4)
+                        return {}
+                    except Exception as e:
+                        # Captura outros erros inesperados
+                        logger.error(f"Erro inesperado ao carregar/criar o arquivo JSON: {e}")
+                        return {}
 
-    except (TimeoutException, StaleElementReferenceException) as e:
-        logger.error(f"An error occurred: {e}")
+                try:
+                    # Carrega ou cria o arquivo JSON
+                    evolucao_mac_json = carregar_ou_criar_json()
+                    logger.info(f"Dados carregados do arquivo {json_filename}.")
+
+                    # Verifica se há dados para salvar
+                    if reformatted_data:  # Supondo que `reformatted_data` já foi definido anteriormente
+                        # Salvar dados reformatados em JSON
+                        try:
+                            with open(json_filename, 'w', encoding='utf-8') as file:
+                                json.dump(reformatted_data, file, ensure_ascii=False, indent=4)
+                            logger.info(f"Dados salvos no arquivo {json_filename}.")
+                        except IOError as e:
+                            logger.error(f"Falha ao salvar dados no arquivo JSON: {e}")
+                    else:
+                        logger.warning("Nenhum dado extraído para criar o DataFrame.")
+
+                except (TimeoutException, StaleElementReferenceException) as e:
+                    logger.error(f"Erro durante a extração de dados: {e}")
+                except Exception as e:
+                    logger.error(f"Erro inesperado: {e}")
 
     finally:
         driver.quit()
